@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+* { 
+    box-sizing:  border-box;
+    -webkit-box-sizing:  border-box; 
+    webkit-box-sizing:  border-box; 
+    -moz-box-sizing:  border-box; 
+} 
+
+div { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.fd-l { 
+    width: 100%;
+} 
+
+.fd-ll { 
+    width: 70.5%; 
+    float: left;
+} 
+
+.fd-pr { 
+    width: 100%; 
+    float: left;
+} 
+
+.tr-cen { 
+    width: 90%; 
+    margin: 0 auto;
+} 
+
+.tr-m { 
+    width: 100%; 
+    float: left;
+} 
+
+form { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+body { 
+    padding:   0;
+    margin:   0; 
+    font-family:  open sans;
+    background:     #eee;
+    border:        0 none; 
+    outline:        0 none; 
+    background-color:        #fff; 
+    color:        #333; 
+    line-height:        1.42857;
+    overflow-x:     hidden;
+} 
+
+html { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:    sans-serif;
+: 
+} 
+
+.pdb10 { 
+    padding-bottom: 14px;
+} 
+
+.bor { 
+    float: left; 
+    width: 100%; 
+    border: 1px solid #d2d2d2; 
+    background: #ffffff; 
+    border-radius: 4px; 
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    -moz-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    box-shadow: 0 0 6px rgb(0 0 0 / 25%);
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box;
+} 
+
+.fd-h { 
+    width: 100%; 
+    float: left; 
+    padding-left: 2%; 
+    font-size: 18px; 
+    color: #1a1a1a; 
+    height: 50px; 
+    line-height: 50px; 
+    background: #f8f6f6; 
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+} 
+
+.fd-h:before { 
+    float: left; 
+    content: " "; 
+    background: url(../images/img-sprite.png); 
+    width: 35px; 
+    height: 35px; 
+    background-position: -60px -4px; 
+    margin-top: 8px;
+} 
+
+.m-info-tips { 
+    background: #e3f8fa; 
+    border: 1px solid #cddbdc; 
+    padding: 10px 20px; 
+    position: relative; 
+    border-radius: 4px; 
+    float: left; 
+    width: 100%;
+} 
+
+.mar20 { 
+    margin-top: 20px;
+} 
+
+ul { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:   'Open Sans', sans-serif;
+    margin-bottom:  10px; 
+    margin-top:  0;
+} 
+
+.m-info-tips ul  { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    padding-left: 18px; 
+    margin-top: 4px;
+} 
+
+li { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+.m-info-tips_item { 
+    list-style: disc; 
+    display: list-item;
+} 
+
+label { 
+    display:  inline-block; 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:   'Open Sans', sans-serif;
+    font-weight:  700; 
+    margin-bottom:  5px; 
+    max-width:  100%;
+} 
+
+.container-radio { 
+    display: block; 
+    position: relative; 
+    padding-left: 28px; 
+    margin-bottom: 12px; 
+    cursor: pointer; 
+    font-size: 12px; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    margin-left: 8px;
+} 
+
+.insur-yes label { 
+    font-weight: normal; 
+    cursor: pointer;
+} 
+
+.insur-yes { 
+    width: 95%; 
+    padding-top: 8px; 
+    font-size: 12px; 
+    color: #000000;
+} 
+
+.insurencediv { 
+    background-color:  #f7f7f7; 
+    width:  100%; 
+    padding:  0% 2% 1% 2%;
+    border-radius: 0 0 5px 5px;
+} 
+
+input { 
+    color:   inherit; 
+    font:   inherit; 
+    margin:   0;
+    line-height:  inherit;
+    font-family: inherit; 
+    font-size: inherit; 
+} 
+
+input[type="radio"] { 
+    box-sizing:  border-box; 
+    padding:  0;
+    line-height: normal; 
+    margin: 4px 0 0;
+} 
+
+.container-radio input { 
+    position: absolute; 
+    opacity: 0; 
+    cursor: pointer;
+} 
+
+p { 
+    margin:  0; 
+    padding:  0;
+    border:    0 none; 
+    outline:    0 none; 
+    font-family:  'Open Sans', sans-serif; 
+} 
+
+.txt-sb { 
+    margin: 0; 
+    padding: 0; 
+    font-size: 12px;
+} 
+
+span { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+

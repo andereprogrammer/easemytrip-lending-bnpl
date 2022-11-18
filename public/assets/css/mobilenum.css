@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+* { 
+    box-sizing:  border-box;
+    -webkit-box-sizing:  border-box; 
+    webkit-box-sizing:  border-box; 
+    -moz-box-sizing:  border-box; 
+} 
+
+div { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.fd-l { 
+    width: 100%;
+} 
+
+.fd-ll { 
+    width: 70.5%; 
+    float: left;
+} 
+
+.fd-pr { 
+    width: 100%; 
+    float: left;
+} 
+
+.tr-cen { 
+    width: 90%; 
+    margin: 0 auto;
+} 
+
+.tr-m { 
+    width: 100%; 
+    float: left;
+} 
+
+form { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+body { 
+    padding:   0;
+    margin:   0; 
+    font-family:  open sans;
+    background:     #eee;
+    border:        0 none; 
+    outline:        0 none; 
+    background-color:        #fff; 
+    color:        #333; 
+    line-height:        1.42857;
+    overflow-x:     hidden;
+} 
+
+html { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:    sans-serif;
+: 
+} 
+
+.pdb10 { 
+    padding-bottom: 14px;
+} 
+
+.bor { 
+    float: left; 
+    width: 100%; 
+    border: 1px solid #d2d2d2; 
+    background: #ffffff; 
+    border-radius: 4px; 
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    -moz-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    box-shadow: 0 0 6px rgb(0 0 0 / 25%);
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box;
+} 
+
+.fd-h { 
+    width: 100%; 
+    float: left; 
+    padding-left: 2%; 
+    font-size: 18px; 
+    color: #1a1a1a; 
+    height: 50px; 
+    line-height: 50px; 
+    background: #f8f6f6; 
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+} 
+
+.fd-h:before { 
+    float: left; 
+    content: " "; 
+    background: url(../images/img-sprite.png); 
+    width: 35px; 
+    height: 35px; 
+    background-position: -60px -4px; 
+    margin-top: 8px;
+} 
+
+.con-m2n { 
+    width: 80%; 
+    float: left; 
+    margin-top: 15px;
+} 
+
+.fd-l1 { 
+    width: 100%; 
+    float: left; 
+    display: none; 
+    overflow: inherit !important;
+} 
+
+.clr { 
+    clear: both;
+} 
+
+.tr-cn { 
+    width: 96%; 
+    margin: 0 auto;
+} 
+
+.mo-u { 
+    float: left; 
+    margin-top: 10px; 
+    width: 100%; 
+    font-size: 11px; 
+    color: #737373;
+} 
+
+.mar20 { 
+    margin-top: 20px;
+} 
+
+.error_case { 
+    background: #a84737; 
+    border-color: #a84737; 
+    color: #fff; 
+    font-size: 14px;
+} 
+
+.alert { 
+    margin-bottom: 0px; 
+    padding: 10px; 
+    margin-top: 10px;
+} 
+
+span { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.pull-left { 
+    float:  left;
+} 
+
+button { 
+    color:      inherit; 
+    font:      inherit; 
+    margin:      0;
+    overflow:     visible;
+    text-transform:    none;
+    cursor:   pointer;
+    font-family:  inherit; 
+    font-size:  inherit; 
+    line-height:  inherit;
+    padding: 0;
+} 
+
+.pull-right { 
+    float: right!important;
+} 
+
+button.close { 
+    padding: 0; 
+    cursor: pointer; 
+    background: transparent; 
+    border: 0; 
+    -webkit-appearance: none;
+} 
+
+img { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:     'Open Sans', sans-serif;
+    max-width:    100%;
+    vertical-align:  middle;
+} 
+
+.mb-m { 
+    width: 100%; 
+    float: left;
+    display: flex;
+    align-items: center;
+
+} 
+
+.mob-r { 
+    width: 70%; 
+    float: left;
+} 
+
+.covflex { 
+    display: flex; 
+    padding: 10px 0; 
+    flex-flow: row wrap;
+} 
+
+.tr-covr { 
+    width: 100%; 
+    margin-left: 12px; 
+    float: left;
+} 
+
+.flco_hed { 
+    font-size: 15px; 
+    color: #2196f3; 
+    font-weight: 600; 
+    display: flex; 
+    margin-bottom: 3px; 
+    align-items: center;
+} 
+
+.mob-l { 
+    width: 10%; 
+    float: left; 
+    margin-right: 2%; 
+    margin-top: 3px;
+} 
+
+.cod { 
+    width: 100%; 
+    float: left; 
+    height: 30px; 
+    line-height: 40px; 
+    font-size: 18px; 
+    border: 1px solid #dad9d9; 
+    padding-left: 8%; 
+    background: #ffffff; 
+    border-radius: 3px;
+} 
+
+.insur-yes { 
+    width: 95%; 
+    padding-top: 8px; 
+    font-size: 12px; 
+    color: #000000;
+} 
+
+.insurencediv { 
+    background-color:  #f7f7f7; 
+    width:  100%; 
+    padding:  0% 2% 1% 2%;
+    border-radius: 0 0 5px 5px;
+} 
+
+label { 
+    display:  inline-block; 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:   'Open Sans', sans-serif;
+    font-weight:  700; 
+    margin-bottom:  5px; 
+    max-width:  100%;
+} 
+
+.container-radio { 
+    display: block; 
+    position: relative; 
+    padding-left: 28px; 
+    margin-bottom: 12px; 
+    cursor: pointer; 
+    font-size: 12px; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    margin-left: 8px;
+} 
+
+.insur-yes label { 
+    font-weight: normal; 
+    cursor: pointer;
+} 
+
+.cod span  { 
+    float: left;
+} 
+
+input { 
+    color:   inherit; 
+    font:   inherit; 
+    margin:   0;
+    line-height:  inherit;
+    font-family: inherit; 
+    font-size: inherit; 
+} 
+
+.cod input  { 
+    width: 53%;
+    margin-left: 10%;
+    box-shadow: none;
+    border: 0px;
+    float: left;
+    height: 25px;
+    border-radius: 3px;
+} 
+
+

@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto"); 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+* { 
+    box-sizing:  border-box;
+    -webkit-box-sizing:  border-box; 
+    webkit-box-sizing:  border-box; 
+    -moz-box-sizing:  border-box; 
+} 
+
+div { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.tr-cen-trvn4 { 
+    width: 96%; 
+    margin: 12px auto;
+} 
+
+.bor { 
+    float: left; 
+    width: 100%; 
+    border: 1px solid #d2d2d2; 
+    background: #ffffff; 
+    border-radius: 4px; 
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    -moz-box-shadow: 0 0 6px rgb(0 0 0 / 25%); 
+    box-shadow: 0 0 6px rgb(0 0 0 / 25%);
+} 
+
+.mgbt20 { 
+    margin-bottom: 20px;
+} 
+
+.fd-l2 { 
+    width: 100%; 
+    float: left; 
+    display: none; 
+    overflow: inherit !important;
+} 
+
+.fd-ll { 
+    width: 70.5%; 
+    float: left;
+} 
+
+.fd-pr { 
+    width: 100%; 
+    float: left;
+} 
+
+.tr-cen { 
+    width: 90%; 
+    margin: 0 auto;
+} 
+
+.tr-m { 
+    width: 100%; 
+    float: left;
+} 
+
+form { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+body { 
+    padding:   0;
+    margin:   0; 
+    font-family:  open sans;
+    background:     #eee;
+    border:        0 none; 
+    outline:        0 none; 
+    background-color:        #fff; 
+    color:        #333; 
+    line-height:        1.42857;
+    overflow-x:     hidden;
+} 
+
+html { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:    sans-serif;
+: 
+} 
+
+:root { 
+    --red: #F9CFBB; 
+    --darkred: #DB1010; 
+    --darkblue: #2196f3; 
+    --lightblue: #c9e3ff; 
+    --purple: #C7BFF9; 
+    --darkpurple: #891e74; 
+    --lightpurple: #e87ff7; 
+    --white: #ffffff; 
+    --pink: #DC39D0; 
+    --ornage: #F2C77F; 
+    --lightgreen: #95F1BC;
+} 
+
+.addn_slct { 
+    border-bottom: 1px solid #DDD7D7; 
+    display: flex; 
+    width: 100%; 
+    vertical-align: middle; 
+    padding: 0px 0; 
+    margin-bottom: 10px;
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box;
+} 
+
+.slct_tap { 
+    padding: 6px 15px; 
+    font-size: 16px; 
+    margin-right: 10px; 
+    color: #000; 
+    font-weight: 600; 
+    display: flex; 
+    align-items: center; 
+    cursor: pointer;
+} 
+
+.wid-30 { 
+    width: 32%; 
+    float: left;
+} 
+
+.container_Addons3 { 
+    clear: both; 
+    width: 100%; 
+    text-align: left; 
+    float: left; 
+    margin: 12px 0;
+} 
+
+.pymnt-bx-lft { 
+    width: 100%; 
+    float: left; 
+    padding: 0; 
+    background: #f8f8f8; 
+    border-right: 1px solid #ccc; 
+    margin-right: 60px;
+    /* height: 100vh; */
+} 
+
+.main-pymnt-bx { 
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+} 
+
+.mar20 { 
+    margin-top: 20px;
+} 
+
+.m-bt { 
+    margin-bottom: 20px;
+} 
+
+.c_pointer { 
+    cursor: pointer;
+} 
+
+.wallet-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.upi-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.emi-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.giftcard-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.epay_col { 
+    width:  100%; 
+    margin:  0% 0%; 
+    padding:  6%; 
+    border-bottom:  1px solid #d4d4d4;
+    color: #b5b5b5; 
+    font-size: 16px; 
+    line-height: 23px;
+} 
+
+.googlepay-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+img { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:     'Open Sans', sans-serif;
+    max-width:    100%;
+    vertical-align:  middle;
+} 
+
+.slct_tap img { 
+    vertical-align: middle; 
+    margin-right: 6px;
+} 
+
+.fli_col { 
+    width: 100%; 
+    float: left;
+} 
+
+a { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:    'Open Sans', sans-serif;
+    background-color:   transparent;
+    color:  #337ab7; 
+    text-decoration:  none;
+} 
+
+a:active,a:hover { 
+    outline: 0 none;
+} 
+
+.bajaj-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.giftcard-dtl a  { 
+    outline: none; 
+    text-decoration: none; 
+    display: block;
+} 
+
+.epay_col a  { 
+    outline: none; 
+    text-decoration: none; 
+    display: block;
+} 
+
+.googlepay-dtl a  { 
+    outline: none; 
+    text-decoration: none; 
+    display: block;
+} 
+
+li { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+#tabsAddons3 li { 
+    float:  left; 
+    list-style:  none; 
+    margin-right:  3px;
+    outline:  none;
+} 
+
+ul { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:   'Open Sans', sans-serif;
+    margin-bottom:  10px; 
+    margin-top:  0;
+} 
+
+#tabsAddons3 { 
+    width: 100%; 
+    margin: 0 0 8px 0; 
+    padding: 0; 
+    float: left;
+} 
+
+.bdr_btm { 
+    color: #2196f3; 
+    float: left; 
+    margin-right: 10px; 
+    outline: none; 
+    font-size: 13px; 
+    text-transform: uppercase; 
+    text-decoration: none !important; 
+    padding: 6px; 
+    font-weight: 600; 
+    cursor: pointer !important; 
+    border: 1px solid #2196f3; 
+    border-radius: 4px;
+} 
+
+.bdr_active { 
+    background-color: #2196f3; 
+    color: #ffffff !important; 
+    border-radius: 4px;
+} 
+
+a  { 
+    display:  block; 
+    color:  #2196f3; 
+    outline:  none; 
+    font-size:  13px; 
+    text-transform:  uppercase; 
+    padding:  8px 8px;
+    font-weight:  600; 
+    cursor:  pointer; 
+    margin-right:  0; 
+    margin-bottom:  5px;
+} 
+
+a:hover  { 
+    color: #5685bc; 
+    outline: none;
+} 
+
+.blk-cls { 
+    background: #fff; 
+    width: 101%!important; 
+    position: relative;
+} 
+
+.card-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+span { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.blu { 
+    color: #2196f3!important;
+} 
+
+.payment-txt { 
+    color: #3e3e3e; 
+    font-size: 14px; 
+    line-height: 23px;
+} 
+
+.fli-lft { 
+    width: 10%; 
+    float: left;
+} 
+
+.netbanking-dtl { 
+    width: 100%; 
+    margin: 0% 0%; 
+    padding: 6%; 
+    border-bottom: 1px solid #e2e2e2;
+} 
+
+.fli-rit { 
+    float: left; 
+    margin-left: 10px; 
+    width: 63%;
+} 
+
+.wallet { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/paymnt-rec.png); 
+    background-position: 0px -87px; 
+    height: 27px;
+} 
+
+.upi { 
+    width:  35px; 
+    margin:  0% 0%; 
+    padding:  6%;
+    float: left; 
+    background: url(../images/upi.png) no-repeat; 
+    height: 27px; 
+    background-image: url("../images/upi.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.emi { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/emi.png) no-repeat; 
+    height: 27px; 
+    background-image: url("../images/emi.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.offr_seat { 
+    overflow: hidden; 
+    width: 86%; 
+    text-align: center; 
+    border-radius: 4px; 
+    padding: 5px; 
+    font-size: 12px; 
+    background: #e5ffd6; 
+    margin-top: 4px; 
+    float: left;
+} 
+
+.giftcard-im3 { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/giftcard-icon-grey.png) no-repeat; 
+    height: 27px; 
+    background-image: url("../images/giftcard-icon-grey.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.giftcardText { 
+    color: #3e3e3d; 
+    font-size: 14px; 
+    line-height: 23px;
+} 
+
+.paylater-im { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/paylater_grey.svg) no-repeat; 
+    height: 27px; 
+    background-size: 27px; 
+    background-image: url("../images/paylater_grey.svg"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.epay_text { 
+    color: #3e3e3d; 
+    font-size: 14px; 
+    line-height: 23px;
+} 
+
+.googlepay-im { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/gpay-grey.png) no-repeat; 
+    height: 27px; 
+    background-size: 24px 24px; 
+    background-image: url("../images/gpay-grey.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.googlepayText { 
+    color: #3e3e3d; 
+    font-size: 14px; 
+    line-height: 23px;
+} 
+
+.bajaj-im1 { 
+    width: 35px; 
+    float: left; 
+    background: url(../images/bajaj-finserv-active.png) no-repeat; 
+    height: 35px; 
+    background-size: 26px; 
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+    margin-top: 8px; 
+    background-image: url("../images/bajaj-finserv-active.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.db { 
+    display: block;
+} 
+
+

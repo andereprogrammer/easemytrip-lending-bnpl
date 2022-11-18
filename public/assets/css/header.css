@@ -1,0 +1,1043 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+* { 
+    box-sizing:  border-box; 
+    -webkit-box-sizing:  border-box; 
+    -moz-box-sizing: border-box;
+} 
+
+div { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.col-md-12 { 
+    min-height: 1px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+@media (min-width: 992px){ 
+  .col-md-12 { 
+    float:  left;
+    width: 100%;
+  } 
+}     
+
+.row { 
+    margin-left: -15px; 
+    margin-right: -15px;
+} 
+
+form { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+body { 
+    padding:  0; 
+    margin:  0; 
+    font-family:  'Open Sans';
+    background:    #f4f4f4; 
+    border:         0 none; 
+    outline:       none!important; 
+    background-color:       #eeeeee!important;
+    color:         #333; 
+    line-height:         1.42857;
+    overflow-x:     hidden;
+    height:     auto;
+} 
+
+html { 
+    margin:    0; 
+    padding:    0;
+    border:    0 none; 
+    outline:    0 none; 
+    font-family:      sans-serif;
+:   
+    overflow-x:  hidden;
+    height:  auto;
+} 
+
+.mdfydBg { 
+    background: linear-gradient(to right, #2F80ED, #56CCF2); 
+    padding: 8px 0;
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+.mdfy_cntr { 
+    width: 1232px; 
+    padding: 0 15px; 
+    margin: 0 auto; 
+    position: relative;
+} 
+
+.mdfy_cntr:after { 
+    content: ''; 
+    clear: both; 
+    display: table;
+} 
+
+.w95 { 
+    width: 100%; 
+    float: left;
+} 
+
+.clr { 
+    clear: both;
+} 
+
+.cal-tw { 
+    left: 10%; 
+    position: absolute; 
+    width: 100%; 
+    margin: 1.6% 0;
+} 
+
+.w100a { 
+    width:  100%; 
+    float:  left; 
+    position: relative;
+} 
+
+.pos-bx { 
+    width:  25%; 
+    position:  absolute; 
+    border:  1px solid #ccc; 
+    border-radius:  3px; 
+    top:  70% !important; 
+    left:  59% !important;
+    background-color:  #fff; 
+    padding:  9px 1% 13px; 
+    z-index:  9999;
+} 
+
+.fl-lftCol { 
+    width: 33.3%; 
+    float: left;
+} 
+
+.fl-ritCol { 
+    width: 55%; 
+    float: left;
+} 
+
+.fl-col-5 { 
+    width: 10%; 
+    float: right; 
+    padding: 0;
+} 
+
+.one-w-mod3 { 
+    display: none;
+} 
+
+#sector-sec1 { 
+    margin-bottom:  12px;
+    margin: 12px 0 0 0;
+} 
+
+#sector-sec2 { 
+    margin-bottom:  12px;
+    margin: 12px 0 0 0;
+} 
+
+#sector-sec3 { 
+    margin-bottom:  12px;
+    margin: 12px 0 0 0;
+} 
+
+#sector-sec4 { 
+    margin-bottom:  12px;
+    margin: 12px 0 0 0;
+} 
+
+#sector-sec5 { 
+    margin: 12px 0 0 0;
+} 
+
+.add { 
+    width: 100%; 
+    float: left; 
+    margin-top: 10px;
+} 
+
+span { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.dblseat { 
+    font-size: 12px; 
+    font-weight: 500; 
+    color: #fff; 
+    float: left; 
+    text-decoration: none; 
+    padding: 4px 7px; 
+    border-radius: 3px; 
+    background: rgba(255,255,255,.3); 
+    margin: 9px 10px 0 0; 
+    cursor: pointer; 
+    position: relative;
+} 
+
+label { 
+    display:  inline-block; 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:   'Open Sans', sans-serif;
+    font-weight:  700; 
+    margin-bottom:  5px; 
+    max-width:  100%;
+} 
+
+.container_ckbx { 
+    display: inline-block; 
+    position: relative; 
+    padding-left: 25px; 
+    cursor: pointer; 
+    font-size: 13px; 
+    color: #fff; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    line-height: 16px; 
+    float: left; 
+    font-weight: 500; 
+    margin: 12px 17px 5px 0;
+} 
+
+.pos-bx-ad { 
+    width: 32%; 
+    float: left; 
+    margin-right: 3%;
+} 
+
+.pos-bx-ch { 
+    width: 32%; 
+    float: left; 
+    margin-right: 3%;
+} 
+
+.pos-bx-inf { 
+    width: 30%; 
+    float: right;
+} 
+
+.dn-btn { 
+    width: 30%; 
+    color: #4e4e4e; 
+    font-size: 13px; 
+    outline: none; 
+    border: 1px solid #fff; 
+    float: right; 
+    padding-top: 3%;
+} 
+
+.cros { 
+    width: 20px; 
+    top: -8%; 
+    left: 96%; 
+    position: absolute; 
+    cursor: pointer;
+} 
+
+.mdf_way { 
+    width: 100%; 
+    float: left;
+} 
+
+.fl-col-1 { 
+    width: 162px; 
+    float: left; 
+    padding: 0; 
+    margin-right: 20px;
+} 
+
+.fl-col-2 { 
+    width: 26px; 
+    float: left; 
+    padding: 0; 
+    margin-right: 10px;
+} 
+
+.fl-col-3 { 
+    width: 138px; 
+    float: left; 
+    padding: 0; 
+    margin-right: 20px;
+} 
+
+.op { 
+    opacity: .3; 
+    position: relative; 
+    z-index: 99;
+} 
+
+.m_rel { 
+    position: relative;
+} 
+
+.op { 
+    opacity: .3; 
+    position: relative; 
+    z-index: 9;
+} 
+
+.fl-col-4 { 
+    width: 145px; 
+    float: left; 
+    padding: 0; 
+    margin-right: 20px;
+} 
+
+.fl-col-55 { 
+    width: 158px; 
+    float: left; 
+    padding: 0; 
+    margin-right: 20px;
+} 
+
+.fl-col-6 { 
+    width: 14%; 
+    float: right; 
+    padding: 0; 
+    margin-right: 0px;
+} 
+
+button { 
+    color:     inherit; 
+    font:     inherit; 
+    margin:     0;
+    overflow:    visible;
+    text-transform:   none;
+    cursor:  pointer;
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+.srchFlbtn { 
+    border: 1px solid #fff; 
+    border-radius: 4px; 
+    color: #fff; 
+    cursor: pointer; 
+    float: right; 
+    font-size: 16px; 
+    text-align: center; 
+    width: 100%; 
+    outline: none; 
+    text-transform: uppercase; 
+    padding: 9px 0; 
+    background: transparent; 
+    font-weight: 600; 
+    margin-top: 21px;
+} 
+
+.corss-m { 
+    width: 11%; 
+    float: left;
+} 
+
+.ad { 
+    font-size: 12px; 
+    color: #fff; 
+    width: 25%; 
+    line-height: 20px; 
+    cursor: pointer;
+} 
+
+.ad:before { 
+    content: '+'; 
+    float: left; 
+    width: 20px; 
+    height: 20px; 
+    background: #fff; 
+    margin-right: 2%; 
+    border-radius: 50%; 
+    color: #000; 
+    text-align: center; 
+    font-size: 19px; 
+    font-weight: 600;
+} 
+
+svg:not(:root) { 
+    overflow: hidden;
+} 
+
+.dblseat svg  { 
+    fill: #ffffff; 
+    width: 18px; 
+    height: 18px; 
+    vertical-align: text-top; 
+    margin-right: 4px;
+} 
+
+input { 
+    color:   inherit; 
+    font:   inherit; 
+    margin:   0;
+    line-height:  inherit;
+    font-family: inherit; 
+    font-size: inherit; 
+} 
+
+input[type="checkbox"] { 
+    box-sizing:  border-box; 
+    padding:  0;
+    line-height: normal; 
+    margin: 4px 0 0;
+} 
+
+.container_ckbx input  { 
+    position: absolute; 
+    opacity: 0; 
+    cursor: pointer;
+} 
+
+.checkmark_ckbx { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 17px; 
+    width: 17px; 
+    border-radius: 3px; 
+    border: 1px solid #e0e0e0;
+} 
+
+.checkmark_ckbx:after { 
+    content: ""; 
+    position: absolute; 
+    display: none;
+} 
+
+.container_ckbx .checkmark_ckbx:after  { 
+    left: 5px; 
+    top: 2px; 
+    width: 5px; 
+    height: 10px; 
+    border: solid #2196f3; 
+    border-width: 0 2px 2px 0; 
+    -webkit-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    transform: rotate(45deg);
+} 
+
+.pos-bx-ad-l { 
+    width: 100%; 
+    color: #737373;
+} 
+
+.pos-bx-ad-r { 
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+} 
+
+.pos-bx-ch-l { 
+    width: 100%; 
+    color: #737373;
+} 
+
+.pos-bx-ch-r { 
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+} 
+
+.pos-bx-inf-l { 
+    width: 100%; 
+    color: #737373;
+} 
+
+.pos-bx-inf-r { 
+    width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+} 
+
+select { 
+    color:   inherit; 
+    font:   inherit; 
+    margin:   0;
+    text-transform:  none;
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+.form-control { 
+    background-color: #fff; 
+    background-image: none; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset; 
+    color: #555; 
+    display: block; 
+    font-size: 14px; 
+    height: 34px; 
+    line-height: 1.42857; 
+    padding: 6px 12px; 
+    transition: border-color .15s ease-in-out 0s, box-shadow .15s ease-in-out 0; 
+    width: 100%;
+} 
+
+.arr-n { 
+    background: #fff url("../images/custom.css") no-repeat scroll 96% 50%; 
+    -webkit-appearance: none; 
+    background-image: url("../images/custom.css"); 
+    background-position-x: 96%; 
+    background-position-y: 50%; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: scroll; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(255, 255, 255);
+} 
+
+.dn-btn-inp { 
+    background-color: #ef631e; 
+    border: medium none; 
+    border-radius: 4px; 
+    color: #fff; 
+    cursor: pointer; 
+    float: right; 
+    font-size: 15px; 
+    padding: 4px 0; 
+    text-align: center; 
+    width: 100%; 
+    outline: none;
+} 
+
+input[type="button"]  { 
+    cursor: pointer;
+} 
+
+img { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:     'Open Sans', sans-serif;
+    max-width:    100%;
+    vertical-align:  middle;
+} 
+
+ul { 
+    margin:   0; 
+    padding:   0;
+    border:   0 none; 
+    outline:   0 none; 
+    font-family:    'Open Sans', sans-serif;
+    margin-bottom:   10px; 
+    margin-top:   0;
+    list-style-type: none;
+} 
+
+.mdf_way ul  { 
+    margin: 0; 
+    padding: 0; 
+    float: left; 
+    width: 100%;
+} 
+
+.inptBx { 
+    width: 100%; 
+    color: #fff; 
+    font-size: 16px; 
+    outline: none; 
+    border: 0; 
+    background: hsla(0,0%,100%,.1); 
+    padding: 5px 7px; 
+    border-radius: 4px; 
+    font-family: 'Open Sans'; 
+    font-weight: 700;
+} 
+.inptBx::placeholder{
+    color: white;
+}
+
+.hideInputElement { 
+    display: none;
+} 
+
+.spnair { 
+    font-size: 10.5px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    width: 176px; 
+    display: inline-block;
+} 
+
+.ui-helper-hidden-accessible { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px;
+} 
+
+.modify-new-scr { 
+    max-height: 220px!important; 
+    overflow: auto!important;
+} 
+
+.drop { 
+    background:  #fff; 
+    border:  none !important;
+    float:  left; 
+    font-family:   roboto,Tahoma,Arial; 
+    height:  auto; 
+    position:  absolute; 
+    top:  129px; 
+    z-index:  999; 
+    background-image:   none; 
+    background-position-x:   0px; 
+    background-position-y:   0px; 
+    background-size:   initial; 
+    background-repeat-x:   repeat; 
+    background-repeat-y:   repeat; 
+    background-attachment:   scroll; 
+    background-origin:   initial; 
+    background-clip:   initial; 
+    background-color:   rgb(255, 255, 255);
+    box-shadow:  0 2px 7px rgba(0,0,0,.45); 
+    -webkit-box-shadow:  0 2px 7px rgba(0,0,0,.45); 
+    -moz-box-shadow:  0 2px 7px rgba(0,0,0,.45);
+} 
+
+#fromautoFill { 
+    top: 74px; 
+    left: 13px; 
+    width: 300px;
+} 
+
+a { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:    'Open Sans', sans-serif;
+    background-color:   transparent;
+    color:  #337ab7; 
+    text-decoration:  none;
+} 
+
+a:active,a:hover { 
+    outline: 0 none;
+} 
+
+.inp-b2 { 
+    width: 100%; 
+    color: #000000; 
+    font-size: 17px; 
+    outline: none; 
+    border: 1px solid #fff;
+} 
+
+#toautoFill { 
+    top: 74px; 
+    width: 300px;
+} 
+
+.lblTtl { 
+    margin-bottom: 9px; 
+    width: 100%; 
+    float: left; 
+    font-size: 13px; 
+    color: #fff; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    margin-top: 5px;
+} 
+
+.inptBx2 { 
+    width: 100%; 
+    color: #fff; 
+    font-size: 16px; 
+    outline: none; 
+    border: 0; 
+    background: hsla(0,0%,100%,.1) url(../images/date-nwicn.png) no-repeat 92% 34%; 
+    padding: 5px 7px; 
+    border-radius: 4px; 
+    font-family: 'Open Sans'; 
+    font-weight: 700; 
+    background-image: url("../images/date-nwicn.png"); 
+    background-position-x: 92%; 
+    background-position-y: 34%; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgba(255, 255, 255, 0.1);
+
+} 
+.inptBx2::placeholder{
+    color: white;
+}
+
+.clsimg { 
+    position:  absolute; 
+    top:  2px!important;
+    margin:  0 0 0 85%; 
+    cursor:  pointer;
+} 
+
+.inp-b5 { 
+    width: 100%; 
+    color: #000000; 
+    font-size: 17px; 
+    outline: none; 
+    border: 1px solid #fff; 
+    background: url(../images/drp.png) no-repeat; 
+    background-position: 100% 29%; 
+    background-image: url("../images/drp.png"); 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.flTrv { 
+    width: 100%; 
+    color: #ffffff; 
+    font-size: 16px; 
+    line-height: 19px; 
+    float: left; 
+    background: hsla(0,0%,100%,.1); 
+    padding: 5px 7px; 
+    border-radius: 4px; 
+    border: 0; 
+    font-family: 'Open Sans'; 
+    font-weight: 700;
+} 
+
+.inpDrpdwn { 
+    width: 100%; 
+    color: #fff; 
+    outline: none; 
+    border: 0; 
+    background: hsla(0,0%,100%,.1); 
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -moz-border-bottom-colors: none; 
+    -moz-border-left-colors: none; 
+    -moz-border-right-colors: none; 
+    -moz-border-top-colors: none; 
+    background-position: 100% 29%; 
+    font-size: 16px; 
+    padding: 5px 7px; 
+    border-radius: 4px; 
+    font-family: 'Open Sans'; 
+    font-weight: 700;
+} 
+
+i { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+.mdfDarw2 { 
+    border: solid white; 
+    border-width: 0 1px 1px 0; 
+    display: inline-block; 
+    padding: 4px; 
+    transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    position: absolute; 
+    right: 8px; 
+    bottom: 14px;
+} 
+
+#FromMulti1 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#ToMulti1 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+.cross { 
+    position: relative; 
+    top: 10px; 
+    right: 10px; 
+    font: normal 25px Arial, Helvetica, sans-serif; 
+    color: #fff; 
+    text-align: right; 
+    cursor: pointer;
+} 
+
+._crsHS { 
+    display: none;
+} 
+
+.cross { 
+    width: 20px; 
+    height: 20px; 
+    float: left; 
+    background: url(../images/nSgclos.png); 
+    margin-top: 0px; 
+    cursor: pointer;
+} 
+
+#FromMulti2 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#ToMulti2 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#FromMulti3 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#ToMulti3 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#FromMulti4 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#ToMulti4 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#FromMulti5 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+#ToMulti5 { 
+    top: 38px; 
+    width: 300px;
+} 
+
+.pos-bx-inp { 
+    width: 100%; 
+    color: #000000; 
+    font-size: 13px; 
+    outline: none; 
+    border: 1px solid #fff; 
+    background: url(../images/drp.png) no-repeat; 
+    background-position: 95% 46%; 
+    padding: 6%; 
+    border-radius: 3px; 
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -moz-border-bottom-colors: none; 
+    -moz-border-left-colors: none; 
+    -moz-border-right-colors: none; 
+    -moz-border-top-colors: none; 
+    background-image: url("../images/drp.png"); 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.pos-bx-inp2 { 
+    width: 100%; 
+    color: #000000; 
+    font-size: 13px; 
+    outline: none; 
+    border: 1px solid #fff; 
+    background: url(../images/drp.png) no-repeat; 
+    background-position: 95% 46%; 
+    padding: 6%; 
+    border-radius: 3px; 
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -moz-border-bottom-colors: none; 
+    -moz-border-left-colors: none; 
+    -moz-border-right-colors: none; 
+    -moz-border-top-colors: none; 
+    background-image: url("../images/drp.png"); 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.pos-bx-inp3 { 
+    width: 100%; 
+    color: #000000; 
+    font-size: 13px; 
+    outline: none; 
+    border: 1px solid #fff; 
+    background: url(../images/drp.png) no-repeat; 
+    background-position: 95% 46%; 
+    padding: 6%; 
+    border-radius: 3px; 
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -moz-border-bottom-colors: none; 
+    -moz-border-left-colors: none; 
+    -moz-border-right-colors: none; 
+    -moz-border-top-colors: none; 
+    background-image: url("../images/drp.png"); 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+li { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+.mdf_way ul li  { 
+    list-style-type: none; 
+    font-size: 13px; 
+    display: inline-block; 
+    color: #ffffff;
+} 
+
+.swapnIcn { 
+    width: 23px; 
+    height: 23px; 
+    background: url(../images/swap-nw-icn.png) no-repeat; 
+    float: left; 
+    background-image: url("../images/swap-nw-icn.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.mdfDarw { 
+    border: solid white; 
+    border-width: 0 1px 1px 0; 
+    display: inline-block; 
+    padding: 4px; 
+    transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    position: relative; 
+    float: right; 
+    margin-top: 3px;
+} 
+
+.blck5 { 
+    color: black;
+} 
+
+.cont-rdo { 
+    display: block; 
+    position: relative; 
+    padding-left: 20px; 
+    margin-bottom: 11px; 
+    cursor: pointer; 
+    font-size: 12px; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    margin-right: 10px; 
+    text-transform: uppercase; 
+    font-weight: 600;
+} 
+
+input[type="radio"] { 
+    box-sizing:  border-box; 
+    padding:  0;
+    line-height: normal; 
+    margin: 4px 0 0;
+} 
+
+.cont-rdo input  { 
+    position: absolute; 
+    opacity: 0; 
+    cursor: pointer;
+} 
+
+.ckmark-rdo { 
+    position: absolute; 
+    top: 0px; 
+    left: 0; 
+    height: 16px; 
+    width: 16px; 
+    background-color: #ffffff; 
+    border-radius: 50%; 
+    border: 1px solid #fff;
+} 
+
+.cont-rdo input:checked ~ .ckmark-rdo  { 
+    background-color: #ffffff; 
+    border: 1px solid #ffffff;
+} 
+
+.ckmark-rdo:after { 
+    content: ""; 
+    position: absolute; 
+    display: none;
+} 
+
+.cont-rdo .ckmark-rdo:after  { 
+    top: 3px; 
+    left: 3px; 
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background: #1b5fbd;
+} 
+
+.cont-rdo input:checked ~ .ckmark-rdo:after  { 
+    display: block;
+} 
+
+

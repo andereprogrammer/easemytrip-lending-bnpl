@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"); 
+* { 
+    box-sizing:  border-box; 
+    -webkit-box-sizing:  border-box; 
+    -moz-box-sizing: border-box;
+} 
+
+div { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.w30 { 
+    width: 20%; 
+    border-radius: 4px; 
+    background-color: #FFF; 
+    float: left; 
+    margin: auto;
+} 
+
+.row { 
+    margin-left: -15px; 
+    margin-right: -15px;
+} 
+
+.no-margn { 
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+.container { 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 15px; 
+    padding-right: 15px;
+} 
+
+@media (min-width: 768px){ 
+  .container { 
+    width: 750px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container { 
+    width: 970px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container { 
+    width: 1232px;
+  } 
+}     
+
+form { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+body { 
+    padding:  0; 
+    margin:  0; 
+    font-family:  'Open Sans';
+    background:    #f4f4f4; 
+    border:         0 none; 
+    outline:       none!important; 
+    background-color:       #eeeeee!important;
+    color:         #333; 
+    line-height:         1.42857;
+    overflow-x:     hidden;
+    height:     auto;
+} 
+
+html { 
+    margin:    0; 
+    padding:    0;
+    border:    0 none; 
+    outline:    0 none; 
+    font-family:      sans-serif;
+:   
+    overflow-x:  hidden;
+    height:  auto;
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+.mar-bt { 
+    background-color: #FFF; 
+    border-radius: 3px; 
+    overflow: hidden; 
+    margin-top: 0;
+} 
+
+.top-bn { 
+    min-height: 56px; 
+    border: 1px solid #D4D4D4;
+} 
+
+.col-md-12 { 
+    min-height: 1px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+@media (min-width: 992px){ 
+  .col-md-12 { 
+    float:  left;
+    width: 100%;
+  } 
+}     
+
+.col-md-10,.col-sm-12 { 
+    min-height: 1px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+@media (min-width: 768px){ 
+  .col-sm-12 { 
+    float:  left;
+    width: 100%;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .col-md-10 { 
+    float:  left;
+    width: 83.3333%;
+  } 
+}     
+
+.no-padd-rt { 
+    padding-right: 0;
+} 
+
+.w70 { 
+    width: 80%; 
+    float: left; 
+    margin: auto; 
+    font-size: 13px;
+} 
+
+.col-md-11 { 
+    min-height: 1px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+@media (min-width: 992px){ 
+  .col-md-11 { 
+    float:  left;
+    width: 91.6667%;
+  } 
+}     
+
+.col-md-1 { 
+    min-height: 1px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+@media (min-width: 992px){ 
+  .col-md-1 { 
+    float:  left;
+    width: 8.33333%;
+  } 
+}     
+
+.cal-tw1 { 
+    left: 14%; 
+    position: absolute; 
+    width: 118%; 
+    margin: -1.4% 0;
+} 
+
+h2 { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:     inherit; 
+    color:    inherit; 
+    font-weight:    500; 
+    line-height:    1.1;
+    margin-bottom:   10px; 
+    margin-top:   20px;
+    font-size:  30px;
+} 
+
+.tp_fltr h2 { 
+    color: #000; 
+    text-transform: uppercase; 
+    font-size: 14px; 
+    margin-top: 0; 
+    padding: 8px 0 8px 6%; 
+    padding-bottom: 0;
+} 
+
+.inp-b4n { 
+    width: 100%; 
+    height: 32px; 
+    cursor: pointer; 
+    color: #000000; 
+    display: block; 
+    outline: none; 
+    border: 1px solid #fff; 
+    background: url(https://flight.easemytrip.com/Content/img/fare-calender1.gif) no-repeat; 
+    background-position: 100% 29%; 
+    font-size: 17px; 
+    margin: 10px 0 0 1px; 
+    background-image: url("https://flight.easemytrip.com/Content/img/fare-calender1.gif"); 
+    background-size: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+span { 
+    border: 0 none; 
+    margin: 0; 
+    outline: 0 none; 
+    padding: 0;
+} 
+
+.jssora03l { 
+    display:  block!important; 
+    position:  absolute; 
+    width:  32px!important; 
+    height:  64px!important; 
+    cursor:  pointer; 
+    background:  url(https://flight.easemytrip.com/Content/img/a04.png) no-repeat; 
+    overflow:  hidden; 
+    left:  0!important; 
+    top:  0!important; 
+    border-right:  1px solid rgba(151,151,151,.3); 
+    background-image:  url("https://flight.easemytrip.com/Content/img/a04.png"); 
+    background-position-x:  initial; 
+    background-position-y:  initial; 
+    background-size:  initial; 
+    background-repeat-x:  no-repeat; 
+    background-repeat-y:  no-repeat; 
+    background-attachment:  initial; 
+    background-origin:  initial; 
+    background-clip:  initial; 
+    background-color:  initial;
+    background-position: -18px 6px!important;
+} 
+
+.jssora03l:hover { 
+    background-position: -18px 6px!important;
+} 
+
+.jssora03r { 
+    display:  block!important; 
+    position:  absolute; 
+    width:  50px!important; 
+    height:  64px!important; 
+    cursor:  pointer;
+    background:  url(https://flight.easemytrip.com/Content/img/a04.png) no-repeat; 
+    overflow:  hidden; 
+    top:  0!important; 
+    right:  0!important; 
+    border-right:  1px solid rgba(151,151,151,.3); 
+    border-left:  1px solid rgba(151,151,151,.3); 
+    background-image:  url("https://flight.easemytrip.com/Content/img/a04.png"); 
+    background-position-x:  initial; 
+    background-position-y:  initial; 
+    background-size:  initial; 
+    background-repeat-x:  no-repeat; 
+    background-repeat-y:  no-repeat; 
+    background-attachment:  initial; 
+    background-origin:  initial; 
+    background-clip:  initial; 
+    background-color:  initial;
+    background-position: -47px 6px!important; 
+} 
+
+.jssora03r:hover { 
+    background-position: -47px 6px!important;
+} 
+
+.min-ht { 
+    border-right: 1px solid rgba(151,151,151,.3); 
+    min-height: auto; 
+    float: left;
+} 
+
+.chk_index { 
+    background: #f5f5f5; 
+    border-top: 4px solid #18b9e1;
+} 
+
+.hov1 { 
+    cursor: pointer;
+} 
+
+.airli-txtn { 
+    width: 100%; 
+    text-align: center; 
+    float: left; 
+    margin-top: 10px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+} 
+
+.btn-group-vertical > .btn-group:after ,.btn-group-vertical > .btn-group:before ,.btn-toolbar:after,.btn-toolbar:before,.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,dd:after ,dd:before ,.form-group:after ,.form-group:before ,.modal-footer:after,.modal-footer:before,.modal-header:after,.modal-header:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.pager:after,.pager:before,.panel-body:after,.panel-body:before,.row:after,.row:before { 
+    content: " "; 
+    display: table;
+} 
+
+.btn-group-vertical > .btn-group:after ,.btn-toolbar:after,.clearfix:after,.container-fluid:after,.container:after,dd:after ,.form-group:after ,.modal-footer:after,.modal-header:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after { 
+    clear: both;
+} 
+
+.fnt17 { 
+    font-size: 17px;
+} 
+
+.mgtp3 { 
+    margin-top: 3px !important;
+} 
+
+.rd-clr { 
+    border-bottom: 3px solid red;
+} 
+
+.ai-d { 
+    width: 100%; 
+    float: left; 
+    color: #3d3b3b; 
+    font-size: 14px;
+} 
+
+.ai-rs { 
+    width: 100%; 
+    float: left; 
+    color: #d63b05; 
+    font-size: 14px; 
+    text-align: center; 
+    padding-bottom: 8%;
+} 
+
+i { 
+    margin:  0; 
+    padding:  0;
+    border:  0 none; 
+    outline:  0 none; 
+    font-family:  'Open Sans', sans-serif;
+} 
+
+.rd_Rs { 
+    width: 7px; 
+    height: 12px; 
+    display: inline-block; 
+    background: url(.../images/red_rupee.png) no-repeat; 
+    margin: 0; 
+    background-size: 7px 10px; 
+    background-image: url(".../images/red_rupee.png"); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+} 
+
+.ai-rs i  { 
+    font-size: 14px; 
+    color: #d63b05;
+} 
+
+

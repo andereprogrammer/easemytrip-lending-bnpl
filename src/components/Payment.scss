@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+.main_payment_gateway {
+  display: flex;
+  width: 100%;
+  font-family: 'Mukta Malar', sans-serif;;
+  gap: 30px;
+  background-color: #fff;
+  justify-content: space-between;
+  .left_side_panel {
+    flex: 0.3;
+  }
+  .payment_main_emt_option {
+    flex: 0.7 1;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    #divHeader{
+      width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .divider{
+      height: 5px;
+      border-bottom: 1px solid #cfcfcf;
+      width: 91%;
+    }
+    }
+    
+    .top_heading_msg {
+      display: flex;
+      font-size: 12px;
+      height: 22px;
+      align-items: center;
+      margin-top: 13px;
+      margin-left: 32px;
+      width: 100%;
+    }
+    .main_heading_msg {
+      display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    width: 100%;
+    align-items: center;
+      .emt_txt_main {
+        font-size: 18px;
+        font-weight: 800;
+      }
+      .emt_amount_main {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        font-size: 24px;
+        font-weight: 800;
+        margin-right: 2px;
+        .approved {
+          font-size: 10px;
+          font-weight: 600;
+          color: #acacac;
+        }
+      }
+    }
+    .pricing_options_container {
+      width: 92%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+      .pricing_option {
+        display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    /* border: 1px solid #ccc; */
+    /* margin: 5px; */
+    margin-left: 1px;
+    width: 99%;
+    border-bottom: 1px solid #ccc;
+    margin-right: 23px;
+    /* border-radius: 5px;*/
+        .right_side_option {
+          display: flex;
+          align-items: center;
+          .label_txt{
+            padding-left: 8px;
+          }
+          .main_txt_label {
+            display: flex;
+            align-items: center;
+            .main_days_info {
+              font-size: 28px;
+              font-weight: 600;
+              text-transform: capitalize;
+              padding: 5px;
+              /* letter-spacing: 1px; */
+            }
+            .paylater_date {
+              color: #c3c3c3c3;
+              font-size: 12px;
+              text-transform: uppercase;
+            }
+          }
+          .sub_txt_label {
+            font-weight: 800;
+            font-size: 12px;
+            text-align: left;
+            padding-left: 5px;
+          }
+        }
+        .left_side_option {
+          .payback_pricing_for {
+            img{
+              margin-bottom: 3px;
+            }
+            .payback_txt {
+              font-size: 15px;
+              font-weight: 500;
+            }
+            .payback_amount {
+              font-size: 29px;
+              font-weight: 800;
+            }
+          }
+        }
+      }
+    }
+    .select_the_pricing {
+      border-radius: 8px;
+      margin: 15px;
+      border: 1px solid #c3c3c3;
+      width: 90%;
+    }
+
+    .top_box_payback {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 130px;
+      border-bottom: 1px solid #acacac;
+      padding: 10px;
+      padding-left: 18px;
+      padding-right: 18px;
+      .label_txt {
+        position: relative;
+        padding-left: 8px;
+      }
+      .label_txt input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+
+      .label_txt:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+
+      .label_txt input:checked ~ .checkmark {
+        background-color: #0092ff;
+      }
+
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+
+      .label_txt input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      .label_txt .checkmark:after {
+        left: 7px;
+        top: 2px;
+        width: 3px;
+        height: 9px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+      }
+      .main_txt_label {
+        display: flex;
+        margin-left: 25px;
+        align-items: center;
+        .main_days_info {
+          font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: capitalize;
+          /* letter-spacing: 1px;*/
+        }
+        .paylater_date {
+          color: #c3c3c3c3;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+      }
+      .payback_pricing_for {
+        .payback_txt {
+          font-size: 15px;
+          font-weight: 500;
+        }
+        .payback_amount {
+          font-size: 30px;
+          font-weight: 800;
+        }
+      }
+      .sub_txt_label {
+        font-weight: 800;
+        font-size: 12px;
+        text-align: left;
+        margin-left: 25px;
+        padding-left: 5px;
+      }
+    }
+    .upi_id_field {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      height: 130px;
+      .show_text_upi {
+        text-align: left;
+        width: 100%;
+        text-transform: capitalize;
+        font-size: 10px;
+        color: #333;
+        padding: 10px;
+      }
+      .show_upi_input_field {
+        height: 74px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        align-items: baseline;
+        flex-direction: column;
+        span {
+          font-size: 10px;
+          font-weight: 800;
+          padding: 2px;
+        }
+        .upi_field {
+          width: 97%;
+          height: 54px;
+          margin: 5px;
+          padding: 8px;
+          outline: none;
+          border: 1px solid #d1d1d1;
+          border-radius: 6px;
+          &::placeholder {
+            font-size: 12px;
+            color: #acacac;
+            text-align: left;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+    .accept_the_offer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 130px;
+      padding: 10px;
+      .due_now_box {
+        .wallet-conditions-container {
+          margin: 20px 0;
+          width: 100%;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .conditions-container {
+            display: flex;
+            position: relative;
+            /* padding-left: 32px; */
+            cursor: pointer;
+            justify-content: center;
+            font-size: 12px;
+            align-items: center;
+            font-weight: 600;
+            color: #43425d;
+            -webkit-user-select: none;
+            user-select: none;
+            // width: 50%;
+            width: 230px;
+            height: 20px;
+            p.conditions-link {
+              margin-left: 6px;
+              color: #0092ff !important;
+              text-decoration: underline !important;
+            }
+          }
+
+          .conditions-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+
+          .checkmark {
+            position: absolute;
+            /* top: 5px; */
+            left: 0;
+            height: 20px;
+            width: 20px;
+            background-color: #eee;
+            border-radius: 50%;
+          }
+
+          .conditions-container:hover input ~ .checkmark {
+            background-color: #ccc;
+          }
+
+          .conditions-container input:checked ~ .checkmark {
+            background-color: #0092ff;
+          }
+
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+
+          .conditions-container input:checked ~ .checkmark:after {
+            display: block;
+          }
+
+          .conditions-container .checkmark:after {
+            left: 7px;
+            top: 2px;
+            width: 3px;
+            height: 9px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+          }
+        }
+        .amount_due_now {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: baseline;
+          .txt_due {
+            font-size: 11px;
+            font-weight: 600;
+          }
+          .due_amount {
+            font-size: 25px;
+            font-weight: 700;
+          }
+        }
+      }
+      .accept_offer_button {
+        display: flex;
+        flex-direction: column;
+        .empty_due {
+          height: 56px;
+        }
+        button {
+          width: 150px;
+          height: 40px;
+          /* border-radius: 6px; */
+          background-color: #ef6614;
+          color: white;
+          border: none;
+          outline: none;
+          border-radius: 6px;
+          &:disabled {
+            background-color: #D6D6D6;
+            color: #B4B4B4;
+          }
+        }
+      }
+    }
+    .image_success {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+      margin: 5px;
+      border-radius: 5px;
+    }
+  }
+}

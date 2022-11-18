@@ -1,0 +1,1328 @@
+﻿@charset "utf-8";
+.airimgS5-ss {
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://flight.easemytrip.com/Content/AirlineLogon/S5.png);
+	background-repeat: no-repeat;
+    }
+.red_GBP {
+    height: 15px;
+    background-image: url(https://flight.easemytrip.com/Content/img/gbp-red.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    margin-top: 5px;
+    padding-right:0
+}
+.rd_GBP {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/gbp-red.svg) no-repeat;
+    margin: 0;
+    background-size: 14px 14px;
+	  
+}
+.grey_GBP {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/gbp-grey.svg) no-repeat;
+    margin: 0;
+    background-size: 9px 9px;
+	  
+}
+.blacknew_GBP {
+    background-image: url(https://flight.easemytrip.com/Content/img/gbp-black.svg);
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 1px;
+    background-size: 11px 11px;
+    vertical-align: middle;
+}
+.white_GBP {
+    display: inline-block;
+    background-image: url(https://flight.easemytrip.com/Content/img/gbp-white.svg);
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 12px;
+    margin-top: 5px;
+    width: 12px;
+}
+.red_AED {height: 21px;
+    width: 21px;
+    background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/red_aed.png);
+    background-repeat: no-repeat;
+    padding-right: 1px;
+    background-size: 20px 15px;
+    margin-top: 3px; }
+.rd_AED { width: 20px; height: 15px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/red_aed.png) no-repeat; margin-right: 0px; background-size: 20px 15px; }
+.rdrt_AED:before {
+    content: '';
+    float: left;
+    width: 22px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/red_aed.png) no-repeat; margin-right: 3px; background-size: 22px 18px;
+}
+.black_AED { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/black_aed.png);width: 20px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 3px;
+    background-size: 20px 15px;vertical-align: middle; }
+.white_AED { height: 15px;
+    background-image: url(https://flight.easemytrip.com/Content/img/white_aed.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 20px 15px;
+    width: 20px;
+    vertical-align: middle;}
+.blacknew_AED { background-image: url(https://flight.easemytrip.com/Content/img/black_aed.png);width: 20px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 3px;
+    background-size: 20px 15px;vertical-align: middle; }
+.grey_AED { background-image: url(https://flight.easemytrip.com/Content/img/grey_aed.png);width: 21px;
+    height: 12px;
+    display: inline-block;
+    background-size: 21px 16px; }	
+	.flightdetOG {
+    background-image: url(https://flight.easemytrip.com/Content/AirlineLogon/OG.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
+}
+
+.txt-r6 {display:inline-block}
+
+.red_Rs { height: 19px;
+    background-image: url(https://flight.easemytrip.com/Content/img/red_rupee.png);
+    background-repeat: no-repeat;
+    padding-right: 1px;
+    margin-top: 6px; }
+.rd_Rs {width: 7px;
+height: 12px;
+display: inline-block;
+background: url(https://flight.easemytrip.com/Content/img/red_rupee.png) no-repeat;
+margin:0;   
+background-size: 7px 10px;}
+.rdrt_Rs:before {content:'';float: left;width: 7px;
+height: 12px;
+display: inline-block;
+background: url(https://flight.easemytrip.com/Content/img/red_rupee.png) no-repeat;
+margin:0;   
+background-size: 7px 10px;margin: 2px 4px 0 0;}
+.black_Rs {
+    height: 19px;
+    width: 9px;
+    background-image: url(https://flight.easemytrip.com/Content/img/black_rupee.png);
+    background-repeat: no-repeat;
+    /* float: left; */
+    background-position: 1px 4px;
+    padding: 0px;
+    text-align: right;
+}
+.blacknew_Rs {
+    width: 7px;
+    height: 10px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/black_rupee.png) no-repeat;
+    background-size: 7px 10px;
+    margin-right: 3px;
+    padding: 0px;
+    text-align: right;}
+.white_Rs { display: inline-block;
+    background-image: url(/Content/img/rupees-icn-white.svg);
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 12px;
+    margin-top: 5px;
+    width: 12px; }
+.green_Rs {
+    height: 10px;
+    width: 7px;
+    background-image: url(../img/rs-save-icn.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 3px;
+}
+.grey_Rs {
+    width: 10px;
+    height: 10px;
+    background: url(https://flight.easemytrip.com/Content/img/rupees-icn-grey2.svg) 0 0;
+    background-size: 10px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+.rdrt_Rs,.rdrt_AED,.rdrt_GBP, .rdrt_EUR, .rdrt_HKD, .rdrt_THB {
+    font-size: 20px;
+    color: #ef631e;
+    line-height: 0.75em;
+    font-weight: 600;
+}
+.rdrt_GBP:before {
+    content: '';
+    float: left;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/gbp-red.svg) no-repeat;
+    margin: 0;
+    background-size: 13px 13px;
+    margin: 1px 3px 0 0;
+}
+
+.rdrt_THB:before {
+    content: '';
+    float: left;
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_red.svg) no-repeat;
+    margin: 0;
+    background-size: 14px 16px;
+    margin: 2px 4px 0 0;
+}
+
+
+.rdrt_HKD:before {
+    content: '';
+    float: left;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_red.svg) no-repeat;
+    margin: 0;
+    background-size: 16px 16px;
+    margin: 2px 4px 0 0;
+}
+
+.rdrt_EUR:before {
+    content: '';
+    float: left;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_red.svg) no-repeat;
+    margin: 0;
+    background-size: 14px 14px;
+    margin: 2px 4px 0 0;
+}
+
+.mg_r_k{    margin-right: 12%;}
+.r_txt_k{
+	display: inline-block;
+    color: #ef631e;
+    font-weight: 600;
+    font-size: 20px;
+}
+body { font-family: Open Sans; outline: none!important; background-color: #eeeeee!important; }
+a:focus { outline: 0 }
+.fare-panel {
+    border-top-color: #ddd;
+	font-size:12px;
+	color: #878787;
+	margin-bottom: 8px;
+}
+.fare-row {
+    display: -ms-flexbox;
+    display: flex;
+}
+.time-diffe {
+    width: 25%;
+    vertical-align: middle;
+    padding: 7px 9px;
+    border: 1px solid #e7e7e7;
+	
+}
+.time-diffe2 {
+    width: 25%;
+    vertical-align: middle;
+    padding: 7px 9px;
+    border: 1px solid #e7e7e7;
+    border-top: 0;
+	
+}
+.time-diffe:nth-of-type(2), .time-diffe:nth-of-type(3) {
+    width: 40%;
+    border-left-color: transparent;
+}
+.airline-fare-rules .cancellation-fee, .airline-fare-rules .date-change-fee {
+    width: 40%;
+}
+.airline-fare-rules .cancellation-fee, .airline-fare-rules .date-change-fee {
+    vertical-align: middle;
+    padding: 7px 9px;
+    border: 1px solid #e7e7e7;
+    border-left: 0;
+    border-top: 0;
+}
+.fli-list .cancellation-fee {
+    margin-left: 0;
+}
+.rules-heading p {
+    font-weight:bold;
+}
+
+
+.bfaf { color: #fff }
+.bfaf:hover { color: #fff; text-decoration: none; cursor: pointer }
+.img-p { padding-left: 6px; padding-right: 0 }
+.m-10 { margin-top: 10px }
+.m-5 { margin-top: 5px }
+.no-m { margin-left: 0; margin-right: 0 }
+.container_loader2 { background: rgba(0,0,0,0.6) none repeat scroll 0 0; font-family: Helvetica; height: 100%; margin: 0; padding: 0; top:0px; position: fixed; width: 100%; z-index: 9999 }
+.loader2 { height: 20px; width: 121px; position: absolute; top: -100px; bottom: 0; left: 0; right: 0; margin: auto }
+.text321 { margin: auto; font-size: 16px; color: #FFF; height: 20px; width: 222px; position: absolute; top: 160px; bottom: 0; left: 0; right: 0; text-align: center }
+#jssor_1 div div div{}
+.txt-rt{ text-align:right;}
+.wid-min7{min-width:72px;}
+.spc-rw2 { margin-top: 2% }
+.btn:focus { outline: 0!important }
+.pad-0n { padding-left: 0; padding-right: 0 }
+.ft-10 { font-size: 10px }
+.no-margn { margin-left: 0; margin-right: 0 }
+.no-padd { padding-left: 0; padding-right: 0 }
+.no-padd-rt { padding-right: 0 }
+.no-padd-lt { padding-left: 0 }
+.padd-bot { padding-bottom: 15px }
+.mar-to-12 { margin-top: 12px }
+.mar-to-9 { margin-top: 9px }
+.mar-to-tb { margin-top: 10px; margin-bottom: 10px }
+.padd-lt19 { padding-left: 19px }
+.pad-top-bot { padding-top: 8px; padding-bottom: 0 }
+.padd-lft { padding-left: 6px }
+.padd-lft1 { padding-left: 8px }
+.txt-al-rt { text-align: right }
+.txt-shad { text-shadow: none }
+.padd-rit { padding-right: 10px }
+.padd-rit3 { padding-right: 3px }
+.padd-rit10{padding-right: 10px}
+.padd-rig2 { padding-right: 4px }
+.txt-cen3 { text-align: center }
+.border-b2 { border: 1px solid #CCC }
+.border-rt { border-right: 1px solid #CCC }
+.border-b3 { border-bottom: 1px solid #e9e8e8; margin-top: 10px; margin-bottom: 10px }
+.border-b4 { border-left: 1px solid #e9e8e8; height: 30px }
+.border-bot4 { border-bottom: 1px solid #CCC }
+.mr20 { margin-top: 15px }
+.fon-st1 { color: #005898; font-size: 29px }
+.fon-st2 { color: #333232; font-size: 14px }
+.fltr { float: right }
+.fltl { float: left }
+.txt-fon1 { text-align: right; font-size: 12px; color: #272828; padding-top: 8px; padding-bottom: 8px }
+.mod-bt { border: 1px solid #858282; color: #858282; text-shadow: none; outline: none!important }
+.mod-bt:hover { background-color: #858282; color: #FFF }
+.modi-col { background-color: #858282!important; color: #FFF!important }
+.mar-bt { background-color: #FFF; border-radius: 3px; overflow: hidden; margin-top: 0 }
+.back-gd1 { background-color: #3f88bc; color: #FFF }
+.bor-d2 { border-right: 1px solid #ecebeb }
+.pad-m { padding-top: 14px; padding-bottom: 15px }
+.air-lft { width: 25%; text-align: center; float: left; padding-top: 15px }
+.airli-txt { width: 70%; text-align: center; float: left; padding-top: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis }
+.txt-v2 { color: #363636; font-size: 12px }
+.min-ht { border-right: 1px solid rgba(151,151,151,.3); min-height: auto; float: left }
+
+.hov { background: #fdfebb }
+.hovHightLight { background: #fdfebb }
+.top-bn { min-height: 56px; border: 1px solid #D4D4D4 }
+.max-wdt { max-width: 129px }
+.flit-sec { max-width: 214px; background-color: #FFF; border-radius: 4px; overflow: hidden; font-size: 13px;border: 1px solid #D4D4D4; }
+.filt-bag { background-color: #ffffff; border-bottom: 1px solid #eeeeee; }
+.txt-32 { color: #000; text-transform: uppercase; font-size: 14px; margin-top: 0; padding: 8px 0 8px 6% }
+.bg-titl { background-color: #dee0e0; color: #000; font-size: 14px; text-transform: uppercase; padding-top: 5px; padding-bottom: 5px }
+.bg-titl-n { margin-bottom: 10px; color: #000; font-size: 11px; text-transform: uppercase; padding-top: 5px; padding-bottom: 5px; }
+.main-bo-lis { background-color: #FFF; border: 1px solid #cdcdcd; border-radius: 4px; margin-bottom: 11px; -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; transition: all .3s ease-out; box-shadow: 0 0 7px rgb(0 0 0 / 20%);-webkit-box-shadow: 0 0 7px rgb(0 0 0 / 20%);}
+.txt-r2 { font-size: 26px; color: #3d3b3b }
+.txt-r2-n { font-size: 16px; color: #333; font-weight: bold }
+.txt-r3 { font-size: 14px; color: #959494 }
+.txt-r3-n { font-size: 13px; color: #737373 }
+.txt-r3-ch { font-size: 11px!important; word-break: break-all; color: #222!important }
+.txt-r4 { font-size: 12px; color: #333 }
+.txt-r5 { font-size: 11px; color: #737373 }
+.txt-r6 { font-size: 29px; color: #d63b05; padding-left: 0; line-height: .9em }
+.txt-r6-n { font-size: 21px; color: #d63b05; padding-left: 0; line-height: 1.2em }
+.txt-r7 { font-size: 11px; color: #26a131; display: block; padding-bottom: 6px }
+.txt-r8 { font-size: 14px; color: #3d3b3b; font-family: roboto; padding-top: 4px; padding-bottom: 4px; outline: none!important }
+.txt-r8:hover { background-color: #005999; color: #FFF; border-radius: 15px }
+.txt-r9 { font-size: 15px; color: #000 }
+.txt-r10 { font-size: 14px; color: #cccbcb }
+.txt-b2-n { font-size: 16px; color: #1e1f1f }
+.txt-b1 { font-size: 18px; color: #333; font-weight: bold }
+.txt-b2 { font-size: 16px; color: #1e1f1f }
+.txt-b2nn { font-size: 12px; color: #333 }
+.txt-b2n { font-size: 12px; color: #333 }
+.txt-b3 { font-size: 11px; color: #737373 }
+.txt-d1 { color: #ec382f }
+.bak-gr3 { background-color: #666664; color: #FFF; font-size: 15px }
+.txt-d4 { font-size: 14px; color: #121111 }
+.txt_p1 { color: #999696; font-size: 11px }
+.txt_p2 { font-size: 9px }
+.txt-c4 { font-size: 11px; color: #7a7878; padding-top: 4px }
+.txt-c1 { font-size: 11px; color: #7a7878 }
+.hov-m { background-color: #005999; color: #FFF!important; border-radius: 15px }
+.airli-img-c { width: 58px; height: 49px; background-image: url(../img/split-img.png); background-position: -24px -208px; background-repeat: no-repeat }
+.arrow-up1 { max-width: 20px; height: 20px; background-image: url(../img/split-img.png)!important; background-position: -28px -1086px!important; background-repeat: no-repeat!important }
+.pr1 { cursor: pointer }
+.txt-r-new { color: #3d3b3b; font-size: 26px }
+.airimg2T { background-image: url(../img/truejet-sprite.png); background-position: -1px -2px; background-repeat: no-repeat; height: 30px; max-width: 58px }
+.airimg2T-ss { background-image: url(../img/truejet-sprite.png); background-position: -2px -16px; background-size: 28px 33px; background-repeat: no-repeat; height: 16px; width: 18px }
+.airimg2T-s { background-image: url(../img/truejet-sprite.png); background-position: -1px -37px; background-repeat: no-repeat; height: 25px; width: 37px }
+.fon-nor { font-weight: 400 }
+.airimg6E { background-image: url(../img/split-img.png); background-position: -15px -255px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgIX { background-image: url(../img/IX.png); background-position: 9px -2px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.flightdetIX { background-image: url(../img/IX.png); background-position: 9px -2px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airbagIX  { background-image: url(../img/IX.png); background-position: 0px -2px; background-repeat: no-repeat; height: 52px; max-width: 58px;     background-size: 34px 42px; }
+.air1 { text-decoration: none }
+.mrgn10 { margin-top: 10px }
+.mrgn4 { margin-top: 6px }
+.pad-10 { padding: 10px 0 }
+.flightdetS9 {background-image: url(https://flight.easemytrip.com/Content/AirlineLogon/S9.png); background-repeat: no-repeat; height: 30px; background-size:30px 30px}
+.airimgG8 { background-image: url(../img/split-img.png); background-position: -15px -202px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgUK { background-image: url(../img/split-img.png); background-position: -15px -409px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgSG { background-image: url(../img/split-img.png); background-position: -15px -306px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgH1{background-image: url(../img/hahn-air-logo.png);background-position: 9px -0px;background-repeat: no-repeat;height: 52px;max-width: 58px;}
+.airimg9W { background-image: url(../img/split-img.png); background-position: -15px -462px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgAI { background-image: url(../img/split-img.png); background-position: -15px -358px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgI5 { background-image: url(../img/split-img.png); background-position: -11px -518px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airbag6E { background-image: url(../img/split-img.png); background-position: -29px -896px; background-repeat: no-repeat; height: 30px }
+.airbagG8 { background-image: url(../img/split-img.png); background-position: -29px -862px; background-repeat: no-repeat; height: 30px }
+.airbagUK { background-image: url(../img/split-img.png); background-position: -29px -966px; background-repeat: no-repeat; height: 30px }
+.airbagSG { background-image: url(../img/split-img.png); background-position: -26px -930px; background-repeat: no-repeat; height: 30px }
+.airbag9W { background-image: url(../img/split-img.png); background-position: -29px -1003px; background-repeat: no-repeat; height: 30px }
+.airbagAI { background-image: url(../img/split-img.png); background-position: -19px -1035px; background-repeat: no-repeat; height: 30px }
+.airbagI5 { background-image: url(../img/split-img.png); background-position: -18px -3px; background-repeat: no-repeat; height: 30px }
+.flightdet6E { background-image: url(../img/split-img.png); background-position: -24px -897px; background-repeat: no-repeat; height: 30px }
+.flightdetG8 { background-image: url(../img/split-img.png); background-position: -25px -861px; background-repeat: no-repeat; height: 30px }
+.flightdetUK { background-image: url(../img/split-img.png); background-position: -25px -962px; background-repeat: no-repeat; height: 30px }
+.flightdetSG { background-image: url(../img/split-img.png); background-position: -25px -931px; background-repeat: no-repeat; height: 30px }
+.flightdet2T{ background-image: url(../AirlineLogon/2t.png); background-size: 42px 29px; background-repeat: no-repeat; height: 30px }
+.airbag2T { background-image: url(../AirlineLogon/2t.png); background-size: 36px 29px; background-repeat: no-repeat; height: 30px }
+.flightdet9W { background-image: url(../img/split-img.png); background-position: -21px -1000px; background-repeat: no-repeat; height: 30px }
+.flightdetAI { background-image: url(../img/split-img.png); background-position: -15px -1029px; background-repeat: no-repeat; height: 30px }
+.flightdetI5 { background-image: url(../img/split-img.png); background-position: -24px -2px; background-repeat: no-repeat; height: 30px; width: auto }
+.arrow-md { background-image: url(../img/split-img.png); background-position: 48px -1064px; background-repeat: no-repeat; height: 19px }
+.dura_md { color: #333; display: block; font-size: 13px; text-align: center; width: 83% }
+.dura_md2 { color: #737373; display: block; font-size: 11px; text-align: center; width: 83% }
+.rupee_ico { height: 19px; background-image: url(../img/split-img.png); background-position: -34px -815px; background-repeat: no-repeat; padding-right: 1px }
+.rupee_ico1 { height: 19px; background-image: url(../img/split-img.png); background-position: -34px -815px; background-repeat: no-repeat; padding-right: 1px }
+.rs-i i { font-size: 12px; color: #000; padding-top: 5px }
+.book-bt { background-color: #ef631e; text-shadow: none; color: #FFF; outline: none; max-width: 87% }
+.book-bt-n { background-color: #ef6614; text-shadow: none; color: #FFF; outline: none; width: 90%; font-weight: 600; text-transform: uppercase; }
+.book-bt2 { background-color: #ef631e; text-shadow: none; color: #FFF; outline: none; width: 100%; margin-top: 18px; padding: 9px 13px 11px 12px; text-align: center; border-radius: 4px }
+.book-bt:hover { background-color: #e25b18; color: #FFF }
+.book-bt-n:hover { background-color: #e25b18; color: #FFF }
+.book-bt2:hover { background-color: #e25b18; color: #FFF }
+.full-str { width: 100%; border-bottom: 1px solid #eee; padding-top: 18px; margin-bottom: 8px }
+.full-str2 { width: 100%; border-bottom: 2px solid #d9d5d5; padding-top: 5px; margin-bottom: 5px }
+.airli-img-d1 { height: 30px; background-image: url(../img/split-img.png); background-position: -29px -973px; background-repeat: no-repeat }
+.clock-img-1 { height: 24px; background-image: url(../img/split-img.png); background-position: -27px -839px; background-repeat: no-repeat }
+.clock-wh1 { width: 10%; margin: 0 auto }
+.full-wd3 { width: 100% }
+.bord-bot5 { border-bottom: 1px dashed #ccc; padding-bottom: 8px }
+.bord-mn { border: 1px solid #ccc; padding-bottom: 8px }
+.air-img-goair { height: 24px; background-image: url(../img/split-img.png); background-position: -31px -906px; background-repeat: no-repeat }
+.arrow-down { height: 24px; background-image: url(../img/split-img.png); background-position: -29px -730px; background-repeat: no-repeat; cursor: pointer }
+.befor-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -603px; background-repeat: no-repeat }
+.full-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -636px; background-repeat: no-repeat }
+.evenin-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -667px; background-repeat: no-repeat }
+.nigh-noon { height: 24px; background-image: url(../img/split-img.png); background-position: -29px -698px; background-repeat: no-repeat }
+.go-air-sm { height: 22px; background-image: url(../img/split-img.png); background-position: -28px -46px; background-repeat: no-repeat }
+.ft_price { margin-top: 12px }
+.txt-m1 { color: #30302f }
+.txt-m1:hover { text-decoration: underline }
+.modif-ser { border: 1px solid #ecebeb; background-color: #FFF }
+.bg-titl a { color: #000; text-decoration: none }
+.bg-titl-n a { color: #fff; text-decoration: none }
+.bg-titl a:hover { color: #fff; text-decoration: none }
+.bg-titl-n a:hover { text-decoration: none }
+.pad-4 { margin-left: 4px }
+.mgn-pad { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0 }
+.margin10 { margin-top: 10px }
+.margin15 { margin-top: 15px }
+.posre { position: relative }
+.posab { position: absolute; margin: auto; top: 30%; bottom: 0; right: 10px }
+.mar-in { margin-top: 10px }
+.mag-r { margin-left: 0 }
+.pad10 { padding-left: 10% }
+.border-t { border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc; padding: 10px 0 }
+.display { display: block }
+.bord { border-bottom: 1px dashed #ccc }
+.hli_radio { background-color: #eef6ff }
+.hli_radioI { background-color: #eef6ff }
+.pad { padding-top: 10px; padding-bottom: 10px }
+.pad-btm { padding-bottom: 10px; padding-top: 10px }
+.cold { cursor: pointer }
+.btn { margin-bottom: 10px }
+.pad-r-no { padding-right: 0 }
+.arr-n { background: #fff url() no-repeat scroll 96% 50%; -webkit-appearance: none }
+.ser-man { width: 100%; margin-bottom: 12px }
+.way-sec { width: 26%; margin: 12px 0 }
+.one-rou { width: 100%; float: left }
+h1.head1-n { font-size: 24px; color: #FFF; font-family: roboto; font-weight: 400; width: 50%; float: left; padding-top: 10px }
+.flt-rt1 { float: right }
+.ser-man { float: left }
+.shw { width: 100%; padding-bottom: 5px; margin: 0 auto; font-size: 11px }
+.shw1 { width: 100%; padding-bottom: 5px; margin: 0 auto; font-size: 11px }
+html, body { overflow-x: hidden; height: auto; }
+.top8 { top: -8px }
+.top5 { top: 0 }
+.top3 { top: -3px }
+.hov1 { cursor: pointer }
+.mar10 { margin-top: 10px }
+.mar-btm { margin-bottom: 10px }
+.passport-main { width: 100%; float: left }
+.passport { width: 50% }
+.pad-btmm { padding-bottom: 10px }
+.ini > div { overflow: initial!important }
+.btn1 { border: 1px solid #ef631e }
+.bood { border: 1px solid #ccc; padding: 10px }
+.word-break { word-break: break-all }
+@media only screen and (min-width:120px) and (max-width: 450px) {
+.txt-r-new { color: #3d3b3b; font-size: 18px!important; padding: 0!important }
+.mag { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0 }
+.img-re { max-width: 12px }
+.cle { clear: both }
+.pad-lft0 { padding-left: 0 }
+.dura1 { display: none }
+.pric1 { display: none }
+.non-st { display: none }
+.airl-txt-n { display: none }
+.mr5 { margin-left: 8.333% }
+.txt-hide { display: none }
+.mr-15 { margin-right: 22px }
+.best-f { display: none }
+.mr-tp { margin-top: 10px }
+.mg-tp { margin-top: 0!important }
+.mg-btm { margin-bottom: 10px }
+.bor-rit { border-right: 0 }
+.mp-w1 { margin-top: 14px; padding-left: 15px }
+.txt-fon1 { text-align: center }
+.air1 i { display: none }
+.dep1 i { display: none }
+.air2 { display: none }
+.txt-r { text-align: right }
+.pad-0 { padding: 0 }
+.refund { font-size: 9px }
+.dis-n { display: none }
+.top5 { top: 0!important }
+.rs-icon-new-p { background-position: 90% 15%!important; margin-top: 4px!important; width: 15px!important; margin-left: 4% }
+.txt-c { text-align: center }
+.refund { float: none!important; margin: 0 auto; width: 50%!important }
+.airbag9W { background-position: -7px -1003px }
+.grand-t-rd { font-size: 13px }
+.gr-amount-lt { font-size: 17px }
+.rupee_ico { background-position: -13px -810px; height: 30px }
+.rupee_ico1 { background-position: -29px -808px; height: 30px }
+.ai-img-rou img { max-width: 90% }
+.flightdet6E { background-position: 22px -897px }
+.b-c { text-align: center }
+.pad5 { padding-left: 5%!important }
+.pri1 { display: none }
+.row-offcanvas { position: relative; -webkit-transition: all .25s ease-out; -o-transition: all .25s ease-out; transition: all .25s ease-out }
+.row-offcanvas-right { right: 0 }
+.row-offcanvas-left { left: 0 }
+.row-offcanvas-right .sidebar-offcanvas { left: -86% }
+.row-offcanvas-left .sidebar-offcanvas { left: -87% }
+.row-offcanvas-right.active { right: -82% }
+.row-offcanvas-left.active { left: 50% }
+.sidebar-offcanvas { position: absolute; top: 0; width: 80% }
+.txt-r2-n { font-size: 18px; font-weight: 700 }
+.bg-titl a { font-size: 9px }
+.txt-r2 { font-size: 12px; font-weight: 700 }
+.airli-img-c { width: 35px; height: 26px; background-position: 0 -74px; background-repeat: no-repeat; background-size: 100% }
+.mar-in { margin: 0 }
+.flightdet9W { background-position: 6px -1000px }
+.txt-r3-n { font-size: 14px }
+.txt-r3 { font-size: 11px }
+.txt-r6-n { font-size: 21px; margin-top: 10px }
+.txt-r6 { font-size: 16px; margin-top: 10px }
+.btn1 { font-size: 14px }
+.book-bt-n { max-width: 100% }
+.book-bt { max-width: 100%; font-size: 8px; padding: 4px 0; margin-right: 6%!important }
+.padi-r { padding-right: 0 }
+.form-control { font-size: 12px }
+.fon-st1 { font-size: 18px }
+label { font-size: 12px }
+.mar-to-12 { margin-top: 0 }
+.txt-b1 { font-size: 13px }
+.txt-b2 { font-size: 12px }
+.txt-b2n { font-size: 10px }
+.txt-b2nn { font-size: 10px }
+.txt-b2-n { font-size: 17px }
+.clock-wh1 { width: 100%; margin: 0 auto }
+.pad1 { padding-right: 1% }
+.font13 { font-size: 13px }
+.font12 { font-size: 12px }
+.mar10 { margin-top: 10px }
+.pad-btmm { padding-bottom: 10px }
+.icn { font-size: 13px }
+.clock-img-1 { background-position: -17px -839px }
+.mg10 { margin-top: 10px }
+.mr0 { margin: 0!important }
+.pd0 { padding: 0!important }
+.fon12 { font-size: 12px }
+.fon11 { font-size: 11px }
+.fon13 { font-size: 13px }
+.pad1 { padding: 0 1% }
+.pd1 { padding-left: 1%; padding-right: 0 }
+.wrp-w { word-wrap: break-word }
+.air1 i { display: none }
+.arr1 i { display: none }
+.dep1 i { display: none }
+.pri1 i { display: none }
+.sw-pd { padding: 5px 0 0!important }
+.mod-bt { height: 25px; line-height: 25px; padding: 0; font-size: 12px; width: 40%; float: none!important; margin: 0 auto 10px }
+.txt-shad { width: 25px; line-height: 0; padding: 0 }
+.padd-rit-n { padding: 0!important }
+.txt-c-1 { text-align: center; float: right; width: 80% }
+.airl-txt-n { display: none!important }
+}
+@media only screen and (min-width:451px) and (max-width:889px) {
+.txt-r-new { color: #3d3b3b; font-size: 26px!important; padding: 0 10px!important }
+.grey-bck1 { color: #646363; line-height: normal!important }
+.refund { width: 42%!important }
+.new-padd-0 { padding: 0!important }
+.row-offcanvas { position: relative; -webkit-transition: all .25s ease-out; -o-transition: all .25s ease-out; transition: all .25s ease-out }
+.row-offcanvas-right { right: 0 }
+.row-offcanvas-left { left: 0 }
+.row-offcanvas-left .sidebar-offcanvas { left: -30% }
+.row-offcanvas-right.active { right: -32% }
+.txt-c-1 { text-align: center; float: right; width: 80% }
+.row-offcanvas-left.active { left: 50% }
+.sidebar-offcanvas { position: absolute; top: 0; width: 80% }
+.txt-r4 { font-size: 12px!important }
+.txt-r6 { font-size: 20px!important }
+.no-padd-tab { padding: 0 }
+.txt-r2 { font-size: 21px!important; padding: 0 0 0 21px !important }
+.arrow-md { background-position: 1px -1064px!important }
+.book-bt { max-width: 100%!important }
+}
+.jssorb03 { position: absolute }
+.sw-pd { padding: 26px 15px 0 }
+.b-c { color: #ef631e; font-size: 18px; padding: 2px 0 5px 0; margin-left: 1% }
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av { position: absolute; width: 21px; height: 21px; text-align: center; line-height: 21px; color: #fff; font-size: 12px; background: url(../img/b03.png) no-repeat; overflow: hidden; cursor: pointer }
+.jssorb03 div { background-position: -5px -4px }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px }
+.jssorb03 .av { background-position: -65px -4px }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px }
+.jssora03l { display: block!important; position: absolute; width: 32px!important; height: 64px!important; cursor: pointer; background: url(/Content/img/a04.png) no-repeat; overflow: hidden; left: 0!important; top: 0!important; border-right: 1px solid rgba(151,151,151,.3); }
+.jssora03r { display: block!important; position: absolute; width: 50px!important; height: 64px!important; cursor: pointer; background: url(../img/a04.png) no-repeat; overflow: hidden; top: 0!important; right: 0!important; border-right: 1px solid rgba(151,151,151,.3); border-left: 1px solid rgba(151,151,151,.3); }
+.jssora03l { background-position: -18px 6px!important }
+.jssora03r { background-position: -47px 6px!important; cursor: pointer }
+.jssora03l:hover { background-position: -18px 6px!important }
+.jssora03r:hover { background-position: -47px 6px!important }
+.jssora03l.jssora03ldn { background-position: -243px -33px }
+.jssora03r.jssora03rdn { background-position: -303px -33px }
+.jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none }
+.jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none }
+.arrow-md-lm { background-image: url(../img/arow_main.png); background-repeat: no-repeat; height: 6px; max-width: 125px }
+.dest-det { font-size: 15px; color: #252525 }
+.mar10 { margin-top: 10px }
+.mar20 { margin-top: 20px }
+.terms { font-size: 10px; color: #000; padding: 0; height: 115px; overflow-x: hidden }
+.can-h { font-size: 14px; color: #5a5a5a }
+.terms-h { font-size: 10px; color: #000; font-weight: 700 }
+.terms ul { margin: 0; padding-left: 14px }
+.terms ul li { list-style-type: disc }
+
+.hei { height: 30px }
+.tab { font-size: 13px }
+.tab tr td { border: 1px solid #ccc }
+.tab tr td:nth-child(1) { background: #fff }
+.tab tr td:nth-child(2) { background: #f7f5f6 }
+.main-fli { padding: 10px 0 }
+.changeview { background-image: url(//flight.easemytrip.com/Content/img/chnage-view-n2.png); background-repeat: no-repeat; padding-left: 41px; padding-top: 4px; font-size: 12px; margin-top: 5px; height: 25px; color: #000000; display: block; }
+.arrow-md-dom { background-image: url(../img/split-img.png); background-position: 13px -1066px; background-repeat: no-repeat; height: 19px }
+.txt-r-new-int { color: #578c0e; font-size: 16px; padding: 4px 0 }
+.txt-r-new-int-non { color: #d63b05; font-size: 16px; padding: 4px 0 }
+.arrow-md-dom-new { background-image: url(../img/split-img.png); background-position: 24px -1067px; background-repeat: no-repeat; height: 19px }
+.dura_mdint { color: #292929; display: block; font-size: 13px; text-align: center; width: 100% }
+.dura_mdint1 { color: #959494; display: block; font-size: 13px; text-align: center; width: 100% }
+.airimg9W-s { background-image: url(/Content/img/split-img.png); background-position: -25px -1005px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgSG-s { background-image: url(/Content/img/split-img.png); background-position: -25px -932px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgUK-s { background-image: url(/Content/img/split-img.png); background-position: -25px -967px; background-repeat: no-repeat; height: 28px; width: 32px }
+.airimg6E-s { background-image: url(/Content/img/split-img.png); background-position: -25px -900px; background-repeat: no-repeat; height: 26px; width: 32px }
+.airimgG8-s { background-image: url(/Content/img/split-img.png); background-position: -25px -868px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgAI-s { background-image: url(/Content/img/split-img.png); background-position: -25px -1040px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgI5-s { width: 34px; height: 27px; background-image: url(/Content/img/split-img.png); background-position: -20px -7px; background-repeat: no-repeat }
+.img-p { padding-left: 6px; padding-right: 0 }
+
+.airimgSG-ss { background-image: url(/Content/img/split-img.png); background-position: -26px -70px; background-repeat: no-repeat; height: 16px; width: 18px }
+
+.airimgOG-ss{ background-image: url(/Content/AirlineLogon/OG.png); background-position: 0 0; background-repeat: no-repeat; height: 16px; width: 18px;     background-size: 18px 18px; }
+
+
+
+#ShowLess { float: left; padding-left: 10%; font-size: 11px; padding-bottom: 10px }
+#ShowMore { float: left; padding-left: 10%; font-size: 11px; padding-bottom: 10px }
+.no-m { margin-left: 0; margin-right: 0 }
+.stk_btm_mobilePrice { float: left }
+.txt-r-new { color: #3d3b3b; font-size: 18px!important; padding: 0!important }
+.airli-txtn { width: 100%; text-align: center; float: left; margin-top: 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis }
+.ai-d { width: 100%; float: left; color: #3d3b3b; font-size: 14px }
+.ai-rs { width: 100%; float: left; color: #d63b05; font-size: 14px; text-align: center; padding-bottom: 8% }
+.ai-rs i { font-size: 14px; color: #d63b05 }
+@media only screen and (min-width:451px) and (max-width:700px) {
+.row-offcanvas-right .sidebar-offcanvas { display: none }
+.des-fr-n { width: 37%!important }
+.des-fr-n2 { width: 42%!important }
+.des-fr-n3 { width: 37%!important }
+.des-fr-n4 { width: 49%!important }
+.des-fr-n5 { width: 34%!important }
+.des-fr-n6 { width: 32%!important }
+.des-fr-n7 { width: 28%!important }
+.box { top: -78px; width: 99%; box-shadow: none!important; left: 0 }
+.main { width: 100%; float: left; left: -9%!important; position: absolute }
+.main1 { display: none!important }
+div#divFareCale { display: none!important }
+}
+ transition: all .3s ease-out;
+}
+.txt-r2 { font-size: 26px; color: #3d3b3b }
+.txt-r2-n { font-size: 16px; color: #333; font-weight: bold }
+.txt-r3 { font-size: 14px; color: #959494 }
+.txt-r3-n { font-size: 13px; color: #737373 }
+.txt-r3-ch { font-size: 11px!important; word-break: break-all; color: #222!important }
+.txt-r4 { font-size: 12px; color: #333;display:inline-block}
+.txt-r5 { font-size: 11px; color: #737373 }
+.txt-r6 { font-size: 29px; color: #d63b05; padding-left: 0; line-height: .9em }
+.txt-r6-n { font-size: 21px; color: #d63b05; padding-left: 0; line-height: 1.3em }
+.txt-r7 { font-size: 11px; color: #26a131; display: block; padding-bottom: 6px }
+.txt-r8 { font-size: 14px; color: #3d3b3b; font-family: roboto; padding-top: 4px; padding-bottom: 4px; outline: none!important }
+.txt-r8:hover { background-color: #005999; color: #FFF; border-radius: 15px }
+.txt-r9 { font-size: 15px; color: #000 }
+.txt-r10 { font-size: 14px; color: #cccbcb }
+.txt-b2-n { font-size: 16px; color: #1e1f1f }
+.txt-b1 { font-size: 18px; color: #333; font-weight: bold }
+.txt-b2 { font-size: 16px; color: #1e1f1f }
+.txt-b2nn { font-size: 12px; color: #333 }
+.txt-b2n { font-size: 12px; color: #333 }
+.txt-b3 { font-size: 11px; color: #737373 }
+.txt-d1 { color: #ec382f }
+.bak-gr3 { background-color: #666664; color: #FFF; font-size: 15px }
+.txt-d4 { font-size: 14px; color: #121111 }
+.txt_p1 { color: #999696; font-size: 11px }
+.txt_p2 { font-size: 9px }
+.txt-c4 { font-size: 11px; color: #7a7878; padding-top: 4px }
+.txt-c1 { font-size: 11px; color: #7a7878 }
+.hov-m { background-color: #005999; color: #FFF!important; border-radius: 15px }
+.airli-img-c { width: 58px; height: 49px; background-image: url(../img/split-img.png); background-position: -24px -208px; background-repeat: no-repeat }
+.arrow-up1 { max-width: 20px; height: 20px; background-image: url(../img/split-img.png)!important; background-position: -28px -1086px!important; background-repeat: no-repeat!important }
+.pr1 { cursor: pointer }
+.txt-r-new { color: #3d3b3b; font-size: 26px }
+.airimg2T { background-image: url(../img/truejet-sprite.png); background-position: -1px -2px; background-repeat: no-repeat; height: 30px; max-width: 58px }
+.airimg2T-s { background-image: url(../img/truejet-sprite.png); background-position: -1px -37px; background-repeat: no-repeat; height: 25px; width: 37px }
+.fon-nor { font-weight: 400 }
+.airimg6E { background-image: url(../img/split-img.png); background-position: -15px -255px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.air1 { text-decoration: none }
+.mrgn10 { margin-top: 10px }
+.mrgn4 { margin-top: 6px }
+.pad-10 { padding: 10px 0 }
+.airimgG8 { background-image: url(../img/split-img.png); background-position: -15px -202px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgUK { background-image: url(../img/split-img.png); background-position: -15px -409px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgSG { background-image: url(../img/split-img.png); background-position: -15px -306px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimg9W { background-image: url(../img/split-img.png); background-position: -15px -462px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgAI { background-image: url(../img/split-img.png); background-position: -15px -358px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airimgI5 { background-image: url(../img/split-img.png); background-position: -11px -518px; background-repeat: no-repeat; height: 52px; max-width: 58px }
+.airbag6E { background-image: url(../img/split-img.png); background-position: -29px -896px; background-repeat: no-repeat; height: 30px }
+.airbagG8 { background-image: url(../img/split-img.png); background-position: -29px -862px; background-repeat: no-repeat; height: 30px }
+.airbagUK { background-image: url(../img/split-img.png); background-position: -29px -966px; background-repeat: no-repeat; height: 30px }
+.airbagSG { background-image: url(../img/split-img.png); background-position: -26px -930px; background-repeat: no-repeat; height: 30px }
+.airbag9W { background-image: url(../img/split-img.png); background-position: -29px -1003px; background-repeat: no-repeat; height: 30px }
+.airbagAI { background-image: url(../img/split-img.png); background-position: -19px -1035px; background-repeat: no-repeat; height: 30px }
+.airbagI5 { background-image: url(../img/split-img.png); background-position: -18px -3px; background-repeat: no-repeat; height: 30px }
+.flightdet6E { background-image: url(../img/split-img.png); background-position: -24px -897px; background-repeat: no-repeat; height: 30px }
+.flightdetG8 { background-image: url(../img/split-img.png); background-position: -25px -861px; background-repeat: no-repeat; height: 30px }
+.flightdetUK { background-image: url(../img/split-img.png); background-position: -25px -962px; background-repeat: no-repeat; height: 30px }
+.flightdetSG { background-image: url(../img/split-img.png); background-position: -25px -931px; background-repeat: no-repeat; height: 30px }
+.flightdet9W { background-image: url(../img/split-img.png); background-position: -21px -1000px; background-repeat: no-repeat; height: 30px }
+.flightdetAI { background-image: url(../img/split-img.png); background-position: -15px -1029px; background-repeat: no-repeat; height: 30px }
+.flightdetI5 { background-image: url(../img/split-img.png); background-position: -24px -2px; background-repeat: no-repeat; height: 30px; width: auto }
+.arrow-md { background-image: url(../img/split-img.png); background-position: 48px -1064px; background-repeat: no-repeat; height: 19px }
+.dura_md { color: #333; display: block; font-size: 13px; text-align: center; width: 83% }
+.dura_md2 { color: #737373; display: block; font-size: 11px; text-align: center; width: 83% }
+.rupee_ico { height: 19px; background-image: url(../img/split-img.png); background-position: -34px -815px; background-repeat: no-repeat; padding-right: 1px }
+.rupee_ico1 { height: 19px; background-image: url(../img/split-img.png); background-position: -34px -815px; background-repeat: no-repeat; padding-right: 1px }
+.rs-i i { font-size: 12px; color: #000; padding-top: 5px }
+.book-bt { background-color: #ef6614; text-shadow: none; color: #FFF; outline: none; max-width: 87% }
+.book-bt-n { background-color: #ef6614; text-shadow: none; color: #FFF; outline: none; width: 90% }
+.book-bt2 { background-color: #ef6614; text-shadow: none; color: #FFF; outline: none; width: 100%; margin-top: 18px; padding: 9px 13px 11px 12px; text-align: center; border-radius: 4px }
+.book-bt:hover { background-color: #e25b18; color: #FFF }
+.book-bt-n:hover { background-color: #e25b18; color: #FFF }
+.book-bt2:hover { background-color: #e25b18; color: #FFF }
+.full-str { width: 100%; border-bottom: 1px solid #eee; padding-top: 18px; margin-bottom: 8px }
+.full-str2 { width: 100%; border-bottom: 2px solid #d9d5d5; padding-top: 5px; margin-bottom: 5px }
+.airli-img-d1 { height: 30px; background-image: url(../img/split-img.png); background-position: -29px -973px; background-repeat: no-repeat }
+.clock-img-1 { height: 24px; background-image: url(../img/split-img.png); background-position: -27px -839px; background-repeat: no-repeat }
+.clock-wh1 { width: 10%; margin: 0 auto }
+.full-wd3 { width: 100% }
+.bord-bot5 { border-bottom: 1px dashed #ccc; padding-bottom: 8px }
+.bord-mn { border: 1px solid #ccc; padding-bottom: 8px }
+.air-img-goair { height: 24px; background-image: url(../img/split-img.png); background-position: -31px -906px; background-repeat: no-repeat }
+.arrow-down { height: 24px; background-image: url(../img/split-img.png); background-position: -29px -730px; background-repeat: no-repeat; cursor: pointer }
+.befor-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -603px; background-repeat: no-repeat }
+.full-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -636px; background-repeat: no-repeat }
+.evenin-sun { height: 24px; background-image: url(../img/split-img.png); background-position: -33px -667px; background-repeat: no-repeat }
+.nigh-noon { height: 24px; background-image: url(../img/split-img.png); background-position: -29px -698px; background-repeat: no-repeat }
+.go-air-sm { height: 22px; background-image: url(../img/split-img.png); background-position: -28px -46px; background-repeat: no-repeat }
+.ft_price { margin-top: 12px }
+.txt-m1 { color: #30302f }
+.txt-m1:hover { text-decoration: underline }
+.modif-ser { border: 1px solid #ecebeb; background-color: #FFF }
+.bg-titl a { color: #000; text-decoration: none }
+.bg-titl-n a { color: #666; font-weight: 600; text-decoration: none }
+.bg-titl a:hover { color: #fff; text-decoration: none }
+.bg-titl-n a:hover { text-decoration: none }
+.pad-4 { margin-left: 4px }
+.mgn-pad { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0 }
+.margin10 { margin-top: 10px }
+.margin15 { margin-top: 15px }
+.posre { position: relative }
+.posab { position: absolute; margin: auto; top: 30%; bottom: 0; right: 10px }
+.mar-in { margin-top: 10px }
+.mag-r { margin-left: 0 }
+.pad10 { padding-left: 10% }
+.border-t { border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc; padding: 10px 0 }
+.display { display: block }
+.bord { border-bottom: 1px dashed #ccc }
+.hli_radio { background-color: #eef6ff }
+.hli_radioI { background-color: #eef6ff }
+.pad { padding-top: 10px; padding-bottom: 10px }
+.pad-btm { padding-bottom: 10px; padding-top: 10px }
+.cold { cursor: pointer }
+.btn { margin-bottom: 10px }
+.pad-r-no { padding-right: 0 }
+.arr-n { background: #fff url() no-repeat scroll 96% 50%; -webkit-appearance: none }
+.ser-man { width: 100%; margin-bottom: 12px }
+.way-sec { width: 26%; margin: 12px 0 }
+.one-rou { width: 100%; float: left }
+h1.head1-n { font-size: 24px; color: #FFF; font-family: roboto; font-weight: 400; width: 50%; float: left; padding-top: 10px }
+.flt-rt1 { float: right }
+.ser-man { float: left }
+.shw { width: 100%; padding-bottom: 5px; margin: 0 auto; font-size: 11px }
+.shw1 { width: 100%; padding-bottom: 5px; margin: 0 auto; font-size: 11px }
+html, body { overflow-x: hidden }
+.top8 { top: -8px }
+.top5 { top: 0 }
+.top3 { top: -3px }
+.hov1 { cursor: pointer }
+.mar10 { margin-top: 10px }
+.mar-btm { margin-bottom: 10px }
+.passport-main { width: 100%; float: left }
+.passport { width: 50% }
+.pad-btmm { padding-bottom: 10px }
+.ini > div { overflow: initial!important }
+.btn1 { border: 1px solid #ef631e }
+.bood { border: 1px solid #ccc; padding: 10px }
+.word-break { word-break: break-all }
+@media only screen and (min-width:120px) and (max-width: 450px) {
+.txt-r-new { color: #3d3b3b; font-size: 18px!important; padding: 0!important }
+.mag { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0 }
+.img-re { max-width: 12px }
+.cle { clear: both }
+.pad-lft0 { padding-left: 0 }
+.dura1 { display: none }
+.pric1 { display: none }
+.non-st { display: none }
+.airl-txt-n { display: none }
+.mr5 { margin-left: 8.333% }
+.txt-hide { display: none }
+.mr-15 { margin-right: 22px }
+.best-f { display: none }
+.mr-tp { margin-top: 10px }
+.mg-tp { margin-top: 0!important }
+.mg-btm { margin-bottom: 10px }
+.bor-rit { border-right: 0 }
+.mp-w1 { margin-top: 14px; padding-left: 15px }
+.txt-fon1 { text-align: center }
+.air1 i { display: none }
+.dep1 i { display: none }
+.air2 { display: none }
+.txt-r { text-align: right }
+.pad-0 { padding: 0 }
+.refund { font-size: 9px }
+.dis-n { display: none }
+.top5 { top: 0!important }
+.rs-icon-new-p { background-position: 90% 15%!important; margin-top: 4px!important; width: 15px!important; margin-left: 4% }
+.txt-c { text-align: center }
+.refund { float: none!important; margin: 0 auto; width: 50%!important }
+.airbag9W { background-position: -7px -1003px }
+.grand-t-rd { font-size: 13px }
+.gr-amount-lt { font-size: 17px }
+.rupee_ico { background-position: -13px -810px; height: 30px }
+.rupee_ico1 { background-position: -29px -808px; height: 30px }
+.ai-img-rou img { max-width: 90% }
+.flightdet6E { background-position: 22px -897px }
+.b-c { text-align: center }
+.pad5 { padding-left: 5%!important }
+.pri1 { display: none }
+.row-offcanvas { position: relative; -webkit-transition: all .25s ease-out; -o-transition: all .25s ease-out; transition: all .25s ease-out }
+.row-offcanvas-right { right: 0 }
+.row-offcanvas-left { left: 0 }
+.row-offcanvas-right .sidebar-offcanvas { left: -86% }
+.row-offcanvas-left .sidebar-offcanvas { left: -87% }
+.row-offcanvas-right.active { right: -82% }
+.row-offcanvas-left.active { left: 50% }
+.sidebar-offcanvas { position: absolute; top: 0; width: 80% }
+.txt-r2-n { font-size: 18px; font-weight: 700 }
+.bg-titl a { font-size: 9px }
+.txt-r2 { font-size: 12px; font-weight: 700 }
+.airli-img-c { width: 35px; height: 26px; background-position: 0 -74px; background-repeat: no-repeat; background-size: 100% }
+.mar-in { margin: 0 }
+.flightdet9W { background-position: 6px -1000px }
+.txt-r3-n { font-size: 14px }
+.txt-r3 { font-size: 11px }
+.txt-r6-n { font-size: 21px; margin-top: 10px }
+.txt-r6 { font-size: 16px; margin-top: 10px }
+.btn1 { font-size: 14px }
+.book-bt-n { max-width: 100% }
+.book-bt { max-width: 100%; font-size: 8px; padding: 4px 0; margin-right: 6%!important }
+.padi-r { padding-right: 0 }
+.form-control { font-size: 12px }
+.fon-st1 { font-size: 18px }
+label { font-size: 12px }
+.mar-to-12 { margin-top: 0 }
+.txt-b1 { font-size: 13px }
+.txt-b2 { font-size: 12px }
+.txt-b2n { font-size: 10px }
+.txt-b2nn { font-size: 10px }
+.txt-b2-n { font-size: 17px }
+.clock-wh1 { width: 100%; margin: 0 auto }
+.pad1 { padding-right: 1% }
+.font13 { font-size: 13px }
+.font12 { font-size: 12px }
+.mar10 { margin-top: 10px }
+.pad-btmm { padding-bottom: 10px }
+.icn { font-size: 13px }
+.clock-img-1 { background-position: -17px -839px }
+.mg10 { margin-top: 10px }
+.mr0 { margin: 0!important }
+.pd0 { padding: 0!important }
+.fon12 { font-size: 12px }
+.fon11 { font-size: 11px }
+.fon13 { font-size: 13px }
+.pad1 { padding: 0 1% }
+.pd1 { padding-left: 1%; padding-right: 0 }
+.wrp-w { word-wrap: break-word }
+.air1 i { display: none }
+.arr1 i { display: none }
+.dep1 i { display: none }
+.pri1 i { display: none }
+.sw-pd { padding: 5px 0 0!important }
+.mod-bt { height: 25px; line-height: 25px; padding: 0; font-size: 12px; width: 40%; float: none!important; margin: 0 auto 10px }
+.txt-shad { width: 25px; line-height: 0; padding: 0 }
+.padd-rit-n { padding: 0!important }
+.txt-c-1 { text-align: center; float: right; width: 80% }
+.airl-txt-n { display: none!important }
+}
+@media only screen and (min-width:451px) and (max-width:889px) {
+.txt-r-new { color: #3d3b3b; font-size: 26px!important; padding: 0 10px!important }
+.grey-bck1 { color: #646363; line-height: normal!important }
+.refund { width: 42%!important }
+.new-padd-0 { padding: 0!important }
+.row-offcanvas { position: relative; -webkit-transition: all .25s ease-out; -o-transition: all .25s ease-out; transition: all .25s ease-out }
+.row-offcanvas-right { right: 0 }
+.row-offcanvas-left { left: 0 }
+.row-offcanvas-left .sidebar-offcanvas { left: -30% }
+.row-offcanvas-right.active { right: -32% }
+.txt-c-1 { text-align: center; float: right; width: 80% }
+.row-offcanvas-left.active { left: 50% }
+.sidebar-offcanvas { position: absolute; top: 0; width: 80% }
+.txt-r4 { font-size: 12px!important }
+.txt-r6 { font-size: 20px!important }
+.no-padd-tab { padding: 0 }
+.txt-r2 { font-size: 21px!important; padding: 0 0 0 21px !important }
+.arrow-md { background-position: 1px -1064px!important }
+.book-bt { max-width: 100%!important }
+}
+.jssorb03 { position: absolute }
+.sw-pd { padding: 26px 15px 0 }
+.b-c { color: #ef631e; font-size: 18px; padding: 2px 0 5px 0; margin-left: 1% }
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av { position: absolute; width: 21px; height: 21px; text-align: center; line-height: 21px; color: #fff; font-size: 12px; background: url(../img/b03.png) no-repeat; overflow: hidden; cursor: pointer }
+.jssorb03 div { background-position: -5px -4px }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px }
+.jssorb03 .av { background-position: -65px -4px }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px }
+.jssora03l { display: block!important; position: absolute; width: 32px!important; height: 64px!important; cursor: pointer; background: url(/Content/img/a04.png) no-repeat; overflow: hidden; left: 0!important; top: 0!important; border-right: 1px solid rgba(151,151,151,.3); }
+.jssora03r { display: block!important; position: absolute; width: 50px!important; height: 64px!important; cursor: pointer; background: url(../img/a04.png) no-repeat; overflow: hidden; top: 0!important; right: 0!important; border-right: 1px solid rgba(151,151,151,.3); border-left: 1px solid rgba(151,151,151,.3); }
+.jssora03l { background-position: -18px 6px!important }
+.jssora03r { background-position: -47px 6px!important; cursor: pointer }
+.jssora03l:hover { background-position: -18px 6px!important }
+.jssora03r:hover { background-position: -47px 6px!important }
+.jssora03l.jssora03ldn { background-position: -243px -33px }
+.jssora03r.jssora03rdn { background-position: -303px -33px }
+.jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none }
+.jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none }
+.arrow-md-lm { background-image: url(../img/arow_main.png); background-repeat: no-repeat; height: 6px; max-width: 125px }
+.dest-det { font-size: 15px; color: #252525 }
+.mar10 { margin-top: 10px }
+.mar20 { margin-top: 20px }
+.terms { font-size: 10px; color: #000; padding: 0; height: 115px; overflow-x: hidden }
+.can-h { font-size: 14px; color: #5a5a5a }
+.terms-h { font-size: 10px; color: #000; font-weight: 700 }
+.terms ul { margin: 0; padding-left: 14px }
+.terms ul li { list-style-type: disc ;border-bottom:none!important}
+.refund {
+    height: 20px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #2dca1c;
+    font-size: 11px;
+    float: right;
+    border: 1px solid #2dca1c;
+	padding:0 6px;
+}
+.hei { height: 30px }
+.tab { font-size: 11px }
+.tab tr td { border: 1px solid #ccc }
+.tab tr td:nth-child(1) { background: #fff }
+.tab tr td:nth-child(2) { background: #f7f5f6 }
+.main-fli { padding: 10px 0 }
+.changeview { background-image: url(//flight.easemytrip.com/Content/img/chnage-view-n2.png); background-repeat: no-repeat; padding-left: 41px; padding-top: 4px; font-size: 12px; margin-top: 5px; height: 25px; color: #000000; display: block; }
+.arrow-md-dom { background-image: url(../img/split-img.png); background-position: 13px -1066px; background-repeat: no-repeat; height: 19px }
+.txt-r-new-int { color: #578c0e; font-size: 16px; padding: 4px 0 }
+.txt-r-new-int-non { color: #d63b05; font-size: 16px; padding: 4px 0 }
+.arrow-md-dom-new { background-image: url(../img/split-img.png); background-position: 24px -1067px; background-repeat: no-repeat; height: 19px }
+.dura_mdint { color: #292929; display: block; font-size: 13px; text-align: center; width: 100% }
+.dura_mdint1 { color: #959494; display: block; font-size: 13px; text-align: center; width: 100% }
+.airimg9W-s { background-image: url(/Content/img/split-img.png); background-position: -25px -1005px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgSG-s { background-image: url(/Content/img/split-img.png); background-position: -25px -932px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgUK-s { background-image: url(/Content/img/split-img.png); background-position: -25px -967px; background-repeat: no-repeat; height: 28px; width: 32px }
+.airimg6E-s { background-image: url(/Content/img/split-img.png); background-position: -25px -900px; background-repeat: no-repeat; height: 26px; width: 32px }
+.airimgG8-s { background-image: url(/Content/img/split-img.png); background-position: -25px -868px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgAI-s { background-image: url(/Content/img/split-img.png); background-position: -25px -1040px; background-repeat: no-repeat; height: 25px; width: 32px }
+.airimgI5-s { width: 34px; height: 27px; background-image: url(/Content/img/split-img.png); background-position: -20px -7px; background-repeat: no-repeat }
+.img-p { padding-left: 6px; padding-right: 0 }
+.airimg9W-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -18px 0px; }
+.airimgSG-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -90px -0px;}
+.airimgUK-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -108px -0px; }
+.airimg6E-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -36px -0px;}
+.airimgG8-ss { width: 18px;height: 18px;background-image: url(/Content/img/goair-f-logo.png);background-position: 0 0; }
+.airimgAI-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -55px -0px; }
+.airimgI5-ss { background-size: 180px 36px;width: 18px;height: 18px;background-image: url(/Content/img/DFL.png);background-position: -18px -18px;}
+.airimgS9-ss { background-size: 20px 20px;width: 20px;height: 20px;background-image: url(/Content/AirlineLogon/S9.png);background-position: -1px -1px; }
+.airimgIX-ss {background-size: 49px 40px;
+    width: 21px;
+    height: 18px;
+    background-image: url(../img/IX.png);
+    background-position: 48px -13px;}
+.mgb2 {margin-bottom:2px}
+
+#ShowLess { float: left; padding-left: 10%; font-size: 11px; padding-bottom: 10px }
+#ShowMore { float: left; padding-left: 10%; font-size: 11px; padding-bottom: 10px }
+.no-m { margin-left: 0; margin-right: 0 }
+.stk_btm_mobilePrice { float: left }
+.txt-r-new { color: #3d3b3b; font-size: 18px!important; padding: 0!important }
+.airli-txtn { width: 100%; text-align: center; float: left; margin-top: 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis }
+.ai-d { width: 100%; float: left; color: #3d3b3b; font-size: 14px }
+.ai-rs { width: 100%; float: left; color: #d63b05; font-size: 14px; text-align: center; padding-bottom: 8% }
+.ai-rs i { font-size: 14px; color: #d63b05 }
+@media only screen and (min-width:451px) and (max-width:700px) {
+.row-offcanvas-right .sidebar-offcanvas { display: none }
+.des-fr-n { width: 37%!important }
+.des-fr-n2 { width: 42%!important }
+.des-fr-n3 { width: 37%!important }
+.des-fr-n4 { width: 49%!important }
+.des-fr-n5 { width: 34%!important }
+.des-fr-n6 { width: 32%!important }
+.des-fr-n7 { width: 28%!important }
+.box { top: -78px; width: 99%; box-shadow: none!important; left: 0 }
+.main { width: 100%; float: left; left: -9%!important; position: absolute }
+.main1 { display: none!important }
+div#divFareCale { display: none!important }
+}
+.txt-32 a { text-align: right; padding-right: 5%; margin-top: 2px; }
+.cl { float: right; color: #f00; margin: 0px; cursor: pointer; position: absolute; padding: 3px 1px; right: 13px; width: 3%; }
+.cou-text-app { float: left; font-size: 11px; color: green; font-weight: 500; }
+.blk-inr1 { background: url(https://flight.easemytrip.com/Content/img/traveller/img-sprite.png); background-position: -63px -45px; }
+.slash_price { width: 120px; text-decoration: line-through; color: #6f6f6f; }
+.slash_price2 { width: 120px; text-decoration: line-through; margin-left: 14px; }
+.cut-pric { font-size: 16px; color: #000000; }
+.can-z { font-size: 12px; color: #5a5a5a; font-weight: bold; }
+.cl img { width: 80%; }
+.sort-by-section { width: 100%; float: left; margin-top: 7px; }
+.tabFlightDetail { margin: 0;
+    padding: 0;
+    background: #f6f4f4;
+    width: 100%;
+    float: left;
+    border-radius: 20px; }
+.tabFlightDetail li { cursor: pointer;
+    float: left;
+    padding: 7px 10px;
+    list-style: none;
+    color: #000;
+    font-size: 13px;
+    margin-right: 12px;
+    width: 23%;
+    text-align: center;
+    font-weight: 600;}
+.active { color: #fff!important;
+    background: #2196f3;
+    border-radius: 20px;}
+.main-bo-lis:hover { -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 35%); -moz-box-shadow: 0 0 15px 0 rgb(0 0 0 / 35%); border-color: rgba(0,0,0,0.3); box-shadow: 0 0 15px 0 rgb(0 0 0 / 35%); }
+.light_bg { background: #f9f9f9; }
+.d-up { cursor: pointer; color: #2196f3; font-size: 13px; text-align: left; padding: 5px 0% 5px 0; float: left; position: relative }
+.d-up:before { content: ""; position: absolute; width: 100%; height: 1px; bottom: 3px; left: 0; background: #2196f3; visibility: hidden; border-radius: 5px; transform: scaleX(0); transition: .25s linear; }
+.d-up:hover:before, .d-up:focus:before { visibility: visible; transform: scaleX(1); }
+.bagage_pnl { float: right; margin-top: 5px; }
+.d-up:hover { }
+.free_mls { color: #878787; font-size: 11px; text-align: right; float: left; line-height: 24px; text-transform: uppercase; letter-spacing: .5px; font-weight: bold }
+.button-v { width: 100%; padding: 8px 2%; font-size: 21px; text-align: center; cursor: pointer; outline: none; color: #fff; background-color: #0099cc; border: none; border-radius: 8px; box-shadow: 0 9px #167ea1; }
+.button-v:hover { background-color: #1391bb }
+.button-v:active { background-color: #048bb8; box-shadow: 0 5px #167ea1; transform: translateY(4px); }
+.fr_ml_icn { float: left; margin-right: 5px; }
+.view-m1 { width: 100%; margin-bottom: 19px; }
+.fon13 { font-size: 13px; }
+.fon12 { font-size: 12px; }
+.hz3 { height: 30px; line-height: 30px; }
+.hz3 .fa { font-size: 13px; }
+
+.ui-slider {
+    width: 148px;
+    margin: 0 auto;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: #ddd;
+    z-index: 99;
+    border: 0;
+}
+.non-st { left: -40px; }
+.pdl5 { padding-left: 5px!important; }
+.fnt15 { font-size: 14px }
+.fa-rupee { width: 7px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/black_rupee.png) no-repeat; background-size: 7px 10px; margin-right: 3px; }
+.rd-rupee { width: 7px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/rd_rupee.png) no-repeat; margin-right: 3px; background-size: 7px 10px; }
+.fa-long-arrow-up { width: 9px; height: 9px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/list-arrow1-up.png) no-repeat; }
+.fa-long-arrow-down { width: 9px; height: 9px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/list-arrow1-down.png) no-repeat; }
+.cross-pr-grid { position: relative; float: left; }
+.cross-pr-txt { color: #333; font-size: 14px; width: auto; margin-top: 0; float: left; }
+.cross-pr-ru { width: auto; float: left; }
+.cross-pr-ru img { width: 10px; vertical-align: baseline }
+.cross-pr-grid:after { position: absolute; content: ""; left: 0; top: 48%; right: 0; border-top: 1px solid; border-color: #000; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); -ms-transform: rotate(-5deg); -o-transform: rotate(-5deg); transform: rotate(-5deg); }
+.ti_prc { float: left; text-align: left; width: 100%;line-height: 17px;margin-bottom:4px }
+.ttl_gry_amt {
+    font-size: 12px;
+    display: inline-block;
+    color: #999696;
+    font-weight: 500;
+}
+.rs_gr_icn {
+    width: 10px;
+    height: 10px;
+    background: url(https://flight.easemytrip.com/Content/img/rupees-icn-grey2.svg) 0 0;
+    background-size: 10px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+
+.ctr_cbox {
+        display: inline-block;
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 7px;
+        cursor: pointer;
+        font-size: 12px;
+		font-weight:500;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        .ctr_cbox input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+    .cmark_cbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 17px;
+        width: 17px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+
+    .ctr_cbox:hover input ~ .cmark_cbox {
+        background-color: #ccc;
+    }
+
+    .ctr_cbox input:checked ~ .cmark_cbox {
+        background-color: #2196F3;
+        border-color: #2196F3;
+    }
+
+    .cmark_cbox:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .ctr_cbox input:checked ~ .cmark_cbox:after {
+        display: block;
+    }
+
+    .ctr_cbox .cmark_cbox:after {
+        left: 5px;
+        top: 1px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+	
+.fa-briefcase {
+   float: left;
+   width: 18px;
+   height: 16px;
+   margin-right: 5px;
+   margin-left: 10px;
+   background: url(https://flight.easemytrip.com/Content/img/briefcase_icn.png);
+}
+
+.hbof{
+color: #878787;
+   font-size: 11px;
+   text-align: right;
+   float: left;
+   line-height: 24px;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+   font-weight: bold;
+}	
+
+/*******USD START*********/
+.rdrt_USD,.rdrt_SGD { font-size: 20px; color: #ef631e; line-height: 0.75em; font-weight: 600; }
+.rdrt_USD:before { content: ''; float: left; width: 15px; height: 15px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_red.svg) no-repeat; margin: 0; background-size: 15px 15px; margin: 1px 0 0 0; }
+.rd_USD { width: 12px; height: 12px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_red.svg) no-repeat; margin: 0; background-size: 12px 12px; }
+.rd_USD { width: 14px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_red.svg) no-repeat; margin: 0; background-size: 14px 14px; }
+.red_USD { height: 16px; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_red.svg); background-repeat: no-repeat; background-size: 16px 16px; margin-top: 5px; padding-right: 0; }
+.white_USD { display: inline-block; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_white.svg); background-size: 12px 12px; background-repeat: no-repeat; float: left; height: 12px; margin-top: 5px; width: 12px; }
+.grey_USD { width: 10px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_grey.svg) no-repeat; margin: 0; background-size: 10px 10px; }
+.blacknew_USD { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/dollar_black.svg) !important; width: 13px; height: 13px; display: inline-block; margin-right: 1px; background-size: 13px 13px; vertical-align: middle; }
+/*******USD END*********/
+
+/*******SGD START*********/
+.rdrt_SGD:before { content: ''; float: left; width: 15px; height: 15px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_red.svg) no-repeat; margin: 0; background-size: 15px 15px; margin: 1px 0 0 0; }
+.rd_SGD { width: 12px; height: 12px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_red.svg) no-repeat; margin: 0; background-size: 12px 12px; }
+.rd_SGD { width: 14px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_red.svg) no-repeat; margin: 0; background-size: 14px 14px; }
+.red_SGD { height: 16px; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_red.svg); background-repeat: no-repeat; background-size: 16px 16px; margin-top: 5px; padding-right: 0; }
+.white_SGD { display: inline-block; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_white.svg); background-size: 12px 12px; background-repeat: no-repeat; float: left; height: 12px; margin-top: 5px; width: 12px; }
+.grey_SGD { width: 10px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_grey.svg) no-repeat; margin: 0; background-size: 10px 10px; }
+.blacknew_SGD { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/sgd_black.svg) !important; width: 13px; height: 13px; display: inline-block; margin-right: 1px; background-size: 13px 13px; vertical-align: middle; }
+/*******SGD end*********/
+
+/*******THB START*********/
+.rdrt_THB { font-size: 20px; color: #ef631e; line-height: 0.75em; font-weight: 600; }
+.rd_THB { width: 12px; height: 12px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_red.svg) no-repeat; margin: 0; background-size: 12px 12px; }
+.rd_THB { width: 14px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_red.svg) no-repeat; margin: 0; background-size: 14px 14px; }
+.red_THB { height: 16px; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_red.svg); background-repeat: no-repeat; background-size: 16px 16px; margin-top: 5px; padding-right: 0; }
+.white_THB { display: inline-block; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_white.svg); background-size: 12px 12px; background-repeat: no-repeat; float: left; height: 12px; margin-top: 5px; width: 12px; }
+.grey_THB { width: 10px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_grey.svg) no-repeat; margin: 0; background-size: 10px 10px; }
+.blacknew_THB { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/thb_black.svg) !important; width: 13px; height: 13px; display: inline-block; margin-right: 1px; background-size: 13px 13px; vertical-align: middle; }
+/*******THB END*********/
+
+
+/*******EUR START*********/
+.rdrt_EUR { font-size: 20px; color: #ef631e; line-height: 0.75em; font-weight: 600; }
+.rd_EUR { width: 12px; height: 12px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_red.svg) no-repeat; margin: 0; background-size: 12px 12px; }
+.rd_EUR{ width: 14px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_red.svg) no-repeat; margin: 0; background-size: 14px 14px; }
+.red_EUR { height: 16px; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_red.svg); background-repeat: no-repeat; background-size: 16px 16px; margin-top: 5px; padding-right: 0; }
+.white_EUR { display: inline-block; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_white.svg); background-size: 12px 12px; background-repeat: no-repeat; float: left; height: 12px; margin-top: 5px; width: 12px; }
+.grey_EUR { width: 10px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_grey.svg) no-repeat; margin: 0; background-size: 10px 10px; }
+.blacknew_EUR { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/eur_black.svg) !important; width: 13px; height: 13px; display: inline-block; margin-right: 1px; background-size: 13px 13px; vertical-align: middle; }
+/*******EUR END*********/
+
+
+/*******HKD START*********/
+.rdrt_HKD { font-size: 20px; color: #ef631e; line-height: 0.75em; font-weight: 600; }
+.rd_HKD { width: 12px; height: 12px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_red.svg) no-repeat; margin: 0; background-size: 12px 12px; }
+.rd_HKD{width: 20px; height: 14px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_red.svg) no-repeat; margin: 0; background-size:  20px 16px; }
+.red_HKD {
+    height: 16px;
+    background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_red.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 16px;
+    margin-top: 5px;
+    width: 20px;
+    padding-right: 0;
+}
+.white_HKD { display: inline-block; background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_white.svg); background-size: 12px 12px; background-repeat: no-repeat; float: left; height: 12px; margin-top: 5px; width: 12px; }
+.grey_HKD { width: 10px; height: 10px; display: inline-block; background: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_grey.svg) no-repeat; margin: 0; background-size: 10px 10px; }
+.blacknew_HKD { background-image: url(https://flight.easemytrip.com/Content/img/curr-icon/hkd_black.svg) !important; width: 13px; height: 13px; display: inline-block; margin-right: 1px; background-size: 13px 13px; vertical-align: middle; }
+/*******EUR END*********/
+
+
+.manyfiltr {width: 50%;
+    background: #fff;
+    padding: 30px;
+    margin: 45px auto;
+    text-align: center;}
+.fltfticn {margin-right: 0px;}
+.fl-head {color: #000;font-size: 20px;margin-bottom:4px;font-weight:600}
+.fl-subtxt {color: #4a4a4a;font-size: 17px;margin-bottom:10px}
+.remove-flbtn {
+    background-color: #fff;
+    border: 1px solid #2196f3;
+    border-radius: 96px;
+    color: #2196f3;
+    font-size: 14px;
+    height: 34px;
+    outline: none;
+    line-height: 32px;
+    padding: 0 20px;
+    text-align: center;
+    outline: none!important;
+	display:inline-block;
+	margin-top:4px;
+	cursor:pointer;
+}
+.filterIcnn {
+    background: url(https://flight.easemytrip.com/Content/img/NewInterListCss/filter.svg) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: 50%;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
