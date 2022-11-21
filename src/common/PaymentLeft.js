@@ -8,7 +8,13 @@ function PaymentLeft() {
            <div className="card-dtl c_pointer blk-cls" onClick="NewPaymentTab(bkn.type)">
                 <a href="#">
                     <div className="card"></div>
-                    <span className="cardText payment-txt blu">EMT Money</span>
+                    <span className="cardText payment-txt blu" style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        textAlign: "center",
+                        width: "100%",
+                        marginRight: 47
+                    }}><img src="/assets/images/emt.svg" width={20} height={20} alt="" /> EMT Money</span>
 					<span style={{display: "none",fontSize: 11,fontWeight: 500,color: "#fff",lineHeight: 14,background: "#2196f3",padding: "2px 6px",borderRadius: 20}}>No Cost EMI</span>
                 </a>
             </div>

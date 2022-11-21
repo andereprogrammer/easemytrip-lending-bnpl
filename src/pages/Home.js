@@ -10,11 +10,17 @@ import FifthBox from '../components/Home/FifthBox';
 import SixthBox from '../components/Home/SixthBox';
 import HomeFooter from '../components/Home/HomeFooter';
 import AiBot from '../components/Home/AiBot';
+import  ReactDOM  from 'react-dom';
+
 
 
 
 function Home() {
   let history = useHistory()
+  useEffect(()=>{
+    ReactDOM.render(<AiBot/>,document.getElementById('foraibot'))
+
+  },[])
  
   return (
     <>
@@ -29,9 +35,8 @@ function Home() {
     <FifthBox/>
     <SixthBox/>
     <HomeFooter/>
-    <AiBot/>
-    </div>
     
+    </div>
     </>
   )
 }

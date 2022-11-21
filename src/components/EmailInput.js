@@ -17,7 +17,7 @@ function EmailInput() {
                         <span style={{marginLeft:10}}>Please enter a valid email Id</span>
                         <button className="close pull-right" type="button" aria-hidden="true">×</button>
                     </div>
-                    <input type="email" className="email_put" name="txtEmailId" value={"gauthammahesh@decentro.tech"} id="txtEmailId" placeholder="Enter Email Address" />
+                    <input type="email" className="email_put" name="txtEmailId" value={"akhilhalgeri@decentro.tech"} id="txtEmailId" placeholder="Enter Email Address" />
 						   <div className="clr"></div>
                     <label className="ear-int">Please enter your email address *</label>
                 </div> 

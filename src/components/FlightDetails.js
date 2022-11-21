@@ -66,7 +66,7 @@ function FlightDetails(props) {
                            
                    
                                                                    
-                                                                   <a className="morefrebt" style={{display:"block"}} ng-if="s.lstFr!=null ">+ More Fare</a>
+                                                                   <a className="morefrebt" style={{display:"block",padding:5}} ng-if="s.lstFr!=null ">+ More Fare</a>
                                                                    <div className="fareSummary snipcss0-3-28-37" style={{display: "none",zIndex: 1000,position: "absolute",backgroundColor: "white",borderStyle: "solid",borderWidth: 1,borderColor: "rgb(35, 157, 222)",fontSize: 12,color: "rgb(0, 0, 0)",width: 250, right:0 }}>
                    
                                                                    </div>

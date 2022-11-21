@@ -66,7 +66,7 @@ function TravellerDetails() {
                         alignItems: "center"
                     }}>
                       <label className="ctr_cbox">
-                        <span>Mr Gautham Mahesh</span>
+                        <span>Mr Akhil Halgeri</span>
                         <input
                           type="checkbox"
                           checked="true"
@@ -108,7 +108,7 @@ function TravellerDetails() {
                           autocomplete="none"
                           paxtype="Adult"
                           dynid="0"
-                          value={"Gautham"}
+                          value={"Akhil"}
                           className="input_trvl"
                           placeholder="Enter First Name"
                           required=""
@@ -121,7 +121,7 @@ function TravellerDetails() {
                           autocomplete="none"
                           paxtype="Adult"
                           dynid="0"
-                          value={"Mahesh"}
+                          value={"Halgeri"}
                           className="input_trvl"
                           placeholder="Enter Last Name"
                           required=""

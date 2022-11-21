@@ -1,9 +1,14 @@
 import React from 'react'
+import  ReactDOM  from 'react-dom';
+
 
 function AiBot() {
+  const close=()=>{
+    ReactDOM.unmountComponentAtNode(document.getElementById('foraibot'))
+  }
   return (
    <React.Fragment>
-     <div className="eb_widget_box">
+     <div className="eb_widget_box" id='aibot'>
       <div className="eb_widget_chat_box">
         <div className="eb_widget_chat_box_header">
           <img className="" src="/assets/images/bot-online.png" />
@@ -14,7 +19,7 @@ function AiBot() {
           >
             -
           </div>
-          <div className="eb_top_box_header_close">×</div>
+          <div className="eb_top_box_header_close" >×</div>
         </div>
         <div className="eb_widget_chat_window">
           <div
@@ -46,7 +51,7 @@ function AiBot() {
             display: 'flex',
             justifyContent: 'end',
             paddingRight: 10
-        }}>X</div>
+        }} onClick={close}>X</div>
         <div className="eb_widget_welcome_text" style={{
              display: 'flex',
              alignItems: 'center',

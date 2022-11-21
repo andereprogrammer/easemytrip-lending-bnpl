@@ -9,9 +9,12 @@ import {
 import ListOfFlights from "./pages/ListOfFlights";
 import PaymentMethod from "./pages/PaymentMethod";
 
+
 function App() {
   return (
     <div className="App">
+      <div id="loginmodal"></div>
+      <div id='foraibot'></div>
       <Router>
         <Switch>
           <Route exact path="/">

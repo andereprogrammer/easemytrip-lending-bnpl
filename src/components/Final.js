@@ -13,16 +13,16 @@ function Final() {
                         <div className="ps1n">
                             <span className="fnt">E-mail   </span>
                             
-                            <span className="fnt-g" ng-model="trvLoginEmail2">gauthammahesh@gmail.com</span>
+                            <span className="fnt-g" ng-model="trvLoginEmail2">akhilhalgeri@decentro.com</span>
                         </div>
                         <div className="ps2n">
                             <span className="fnt">Contact No. </span>
-                            <span className="fnt-g">9677706943</span>
+                            <span className="fnt-g">9845126732</span>
                         </div>
                         <div className="ps3n">
                             <span className="fnt">Adult (<span className="ng-binding">1</span>) </span>
                             
-                            <span className="fnt-g" ng-bind="adt.Title+' '+ adt.fName+' '+adt.LName">Mr Gautham Mahesh</span>
+                            <span className="fnt-g" ng-bind="adt.Title+' '+ adt.fName+' '+adt.LName">Mr Akhil Halgeri</span>
                         </div>
                         <div className="ps4n">
                             <span className="fnt">Child (<span className="ng-binding">0</span>) </span>
