@@ -130,7 +130,7 @@ function LoginModal() {
             </div>
             <div className="cntnt_f4_v1">
                 <div className="se_m_v1">
-                    <div className="mob-h_v1">Email ID  </div>
+                    {/* <div className="mob-h_v1">Email ID  </div>
                     <div className="clr"></div>
                     <div className="m_inp_v1">
                         <input type="text"
@@ -139,7 +139,7 @@ function LoginModal() {
                         onBlur={handleBlur}
                         onChange={handleDetails}
                         autocomplete="off" value={customerDetails.email} placeholder="Enter email ID" className=""/>
-                    </div>
+                    </div> */}
                     <div className="mob-h_v1">Mobile Number </div>
                     <div className="clr"></div>
                     <div className="m_inp_v1">
