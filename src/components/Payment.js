@@ -1,81 +1,79 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import PaymentHead from "../common/PaymentHead";
 import PaymentLeft from "../common/PaymentLeft";
 import "./Payment.scss";
 
 function Payment() {
-  let [disabled,setDisabled] = useState(true)
-  let [check,setCheck] = useState(false)
+  let [disabled, setDisabled] = useState(true);
+  let [check, setCheck] = useState(false);
 
-  let [selectedPrice,setSelectedPrice] = useState({})
+  let [selectedPrice, setSelectedPrice] = useState({});
   let [inputData, setInputData] = React.useState({
     toUPIInput: "",
-  })
-  const [customerDetails, setCustomerDetails] = React.useState({ toUPIInput: "",
-})
-const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
-})
-  function showPrice(price){
-    let selected = document.getElementById('select_the_pricing')
-    let pricing = document.getElementById('pricing_options')
-    let top_heading_msg = document.getElementById('top_heading')
-    let divider_msg = document.getElementById('divHeader')
-    top_heading_msg.style.display = 'none'
-    selected.style.display = 'block'
-    divider_msg.style.display = 'flex'
-    pricing.style.display = 'none'
-    setSelectedPrice(price)
+  });
+  const [customerDetails, setCustomerDetails] = React.useState({
+    toUPIInput: "",
+  });
+  const [inputValidation, setInputValidation] = React.useState({
+    toUPIError: "",
+  });
+  function showPrice(price) {
+    let selected = document.getElementById("select_the_pricing");
+    let pricing = document.getElementById("pricing_options");
+    let top_heading_msg = document.getElementById("top_heading");
+    let divider_msg = document.getElementById("divHeader");
+    top_heading_msg.style.display = "none";
+    selected.style.display = "block";
+    divider_msg.style.display = "flex";
+    pricing.style.display = "none";
+    setSelectedPrice(price);
   }
-  function goback(){
-    let selected = document.getElementById('select_the_pricing')
-    let pricing = document.getElementById('pricing_options')
-    let top_heading_msg = document.getElementById('top_heading')
-    let divider_msg = document.getElementById('divHeader')
-    top_heading_msg.style.display = 'flex'
-    selected.style.display = 'none'
-    pricing.style.display = 'block'
-    divider_msg.style.display = 'none'
-    setCheck(false)
-    setSelectedPrice(0)
+  function goback() {
+    let selected = document.getElementById("select_the_pricing");
+    let pricing = document.getElementById("pricing_options");
+    let top_heading_msg = document.getElementById("top_heading");
+    let divider_msg = document.getElementById("divHeader");
+    top_heading_msg.style.display = "flex";
+    selected.style.display = "none";
+    pricing.style.display = "block";
+    divider_msg.style.display = "none";
+    setCheck(false);
+    setSelectedPrice(0);
   }
-  function hideandshow(){
-    let selected = document.getElementById('select_the_pricing')
-    let selectedImage = document.getElementById('image_pricing')
-    let main_heading_msg = document.getElementById('main_heading')
-    let divider_msg = document.getElementById('divHeader')
-    main_heading_msg.style.display = 'none'
-    selected.style.display = 'none'
-    selectedImage.style.display = 'block'
-    divider_msg.style.display = 'none'
-    let done_ref= document.getElementById('done_btn')
-    done_ref.style.display = 'block'
-
+  function hideandshow() {
+    let selected = document.getElementById("select_the_pricing");
+    let selectedImage = document.getElementById("image_pricing");
+    let main_heading_msg = document.getElementById("main_heading");
+    let divider_msg = document.getElementById("divHeader");
+    main_heading_msg.style.display = "none";
+    selected.style.display = "none";
+    selectedImage.style.display = "block";
+    divider_msg.style.display = "none";
+    let done_ref = document.getElementById("done_btn");
+    done_ref.style.display = "block";
   }
-  const handleContactDetails = (e) =>{
+  const handleContactDetails = (e) => {
     let { name, value } = e.target;
 
     setCustomerDetails({ ...customerDetails, toUPIInput: value });
-      delete inputData["to_account"];
-      let toUPIRegex = /^[\w.-]+@[\w.-]+$/;
+    delete inputData["to_account"];
+    let toUPIRegex = /^[\w.-]+@[\w.-]+$/;
 
-      if (value.match(toUPIRegex)) {
-        setInputData({ ...inputData, [name]: value });
-        setInputValidation({ ...inputValidation, toUPIError: "" });
-        setDisabled(false)
-      }
-      else {
-        setInputData({ ...inputData, [name]: "" });
-        setDisabled(true)
-
-
-      }
-  }
+    if (value.match(toUPIRegex)) {
+      setInputData({ ...inputData, [name]: value });
+      setInputValidation({ ...inputValidation, toUPIError: "" });
+      setDisabled(false);
+    } else {
+      setInputData({ ...inputData, [name]: "" });
+      setDisabled(true);
+    }
+  };
   const handleBlur = (e) => {
     let { name, value } = e.target;
     if (name === "toUPIInput") {
       let toUPIRegex = /^[\w.-]+@[\w.-]+$/;
-      if (!(value.match(toUPIRegex))) {
-        setDisabled(true)
+      if (!value.match(toUPIRegex)) {
+        setDisabled(true);
         setInputData({ ...inputData, [name]: "" });
         setInputValidation({
           ...inputValidation,
@@ -83,8 +81,7 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
         });
       }
     }
-
-  }
+  };
   let pricing = [
     {
       price: "5,000",
@@ -109,8 +106,7 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
       days: "90 days",
       date: "pay by 5 Feb",
       interest: "Interest 7.00%",
-    }
-   
+    },
   ];
   return (
     <React.Fragment>
@@ -129,19 +125,27 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
               <span className="approved">Approved</span>₹5,000
             </div>
           </div>
-          <div className="divHolder" id="divHeader" style={{display:'none'}}>
-            <img src="/assets/images/Back.svg" alt="" onClick={()=>goback()}/> <div className="divider"></div>
+          <div className="divHolder" id="divHeader" style={{ display: "none" }}>
+            <img
+              src="/assets/images/Back.svg"
+              alt=""
+              onClick={() => goback()}
+            />{" "}
+            <div className="divider"></div>
           </div>
-         
-          <div
-            className="pricing_options_container"
-            id="pricing_options"
-          >
+
+          <div className="pricing_options_container" id="pricing_options">
             {pricing.map((price) => {
               return (
                 <div className="pricing_option">
                   <div className="right_side_option">
-                    <input type="radio" name="" id="" checked={check} onChange={()=>showPrice(price)}/>
+                    <input
+                      type="radio"
+                      name=""
+                      id=""
+                      checked={check}
+                      onChange={() => showPrice(price)}
+                    />
                     <div className="label_txt">
                       <div className="main_txt_label">
                         <span className="main_days_info">{price.days}</span>
@@ -156,31 +160,43 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
                     <div className="payback_pricing_for">
                       <span className="payback_txt">Payback Price</span>
                       <br />
-                      <img src="/assets/images/rupee.png" width={12} height={18} alt="" style={{marginBotton:"3px"}} /> <span className="payback_amount">{price.price}</span>
+                      <img
+                        src="/assets/images/rupee.png"
+                        width={12}
+                        height={18}
+                        alt=""
+                        style={{ marginBotton: "3px" }}
+                      />{" "}
+                      <span className="payback_amount">{price.price}</span>
                     </div>
                   </div>
                 </div>
               );
             })}
-            
           </div>
-            
-          <div className="select_the_pricing" style={{ display: "none" }} id="select_the_pricing">
+
+          <div
+            className="select_the_pricing"
+            style={{ display: "none" }}
+            id="select_the_pricing"
+          >
             <div className="top_box_payback">
               <div className="days_chosen">
                 <div className="label_txt">
-                   <input
-                      type="checkbox"
-                      name="issue-wallet-condition-input"
-                      checked
-                    />
+                  <input
+                    type="checkbox"
+                    name="issue-wallet-condition-input"
+                    checked
+                  />
                   <span className="checkmark"></span>
                   <div className="main_txt_label">
                     <span className="main_days_info">{selectedPrice.days}</span>
                     <span className="paylater_date">{selectedPrice.date}</span>
                   </div>
                   <div className="sub_txt_label">
-                    <div className="sub_date_info">{selectedPrice.interest}</div>
+                    <div className="sub_date_info">
+                      {selectedPrice.interest}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -188,7 +204,15 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
                 <div className="payback_pricing_for">
                   <span className="payback_txt"> Payback Price</span>
                   <br />
-                  <span className="payback_amount"><img src="/assets/images/rupee.png" width={12} height={15} alt="" />{selectedPrice.price}</span>
+                  <span className="payback_amount">
+                    <img
+                      src="/assets/images/rupee.png"
+                      width={12}
+                      height={15}
+                      alt=""
+                    />
+                    {selectedPrice.price}
+                  </span>
                 </div>
               </div>
             </div>
@@ -232,17 +256,36 @@ const [inputValidation, setInputValidation] = React.useState({toUPIError: "",
                 </div>
                 <div className="amount_due_now">
                   <div className="txt_due">Due now</div>
-                  <div className="due_amount"><img src="/assets/images/rupee.png" width={12} height={15} alt=""/> 0</div>
+                  <div className="due_amount">
+                    <img
+                      src="/assets/images/rupee.png"
+                      width={12}
+                      height={15}
+                      alt=""
+                    />{" "}
+                    0
+                  </div>
                 </div>
               </div>
               <div className="accept_offer_button">
                 <div className="empty_due"></div>
-                <button disabled={disabled} onClick={()=>hideandshow()}>Accept Offer</button>
+                <button disabled={disabled} onClick={() => hideandshow()}>
+                  Accept Offer
+                </button>
               </div>
             </div>
           </div>
-          <div className="image_success"  id="image_pricing" style={{ display: "none" }}>
-            <img src="/assets/images/success.png" alt="" width={"100%"} height={300}/>
+          <div
+            className="image_success"
+            id="image_pricing"
+            style={{ display: "none" }}
+          >
+            <img
+              src="/assets/images/success.png"
+              alt=""
+              width={"100%"}
+              height={300}
+            />
           </div>
         </div>
       </div>

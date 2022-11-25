@@ -108,7 +108,6 @@ function TravellerDetails() {
                           autocomplete="none"
                           paxtype="Adult"
                           dynid="0"
-                          value={"Akhil"}
                           className="input_trvl"
                           placeholder="Enter First Name"
                           required=""
@@ -121,7 +120,6 @@ function TravellerDetails() {
                           autocomplete="none"
                           paxtype="Adult"
                           dynid="0"
-                          value={"Halgeri"}
                           className="input_trvl"
                           placeholder="Enter Last Name"
                           required=""
