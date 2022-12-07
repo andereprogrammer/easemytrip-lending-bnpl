@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useContext ,useEffect} from 'react'
+import EMTContext from '../common/EMTContext'
+import { useState } from 'react';
+
 
 function TravellerDetails() {
+  let [actualName,setActualName] = useState("Enter your name");
+  let [actualNameValue,setActualNameValue] = useState("");
+
+  
+  useEffect(()=>{
+    if(localStorage.getItem("name") !== null){
+      setActualName('Mr '+ localStorage.getItem("name"))
+      setActualNameValue(localStorage.getItem("name"))
+
+    }
+
+  },[])
+
   return (
     <React.Fragment>
           <div className="bor">
@@ -66,7 +82,7 @@ function TravellerDetails() {
                         alignItems: "center"
                     }}>
                       <label className="ctr_cbox">
-                        <span>Mr Akhil Halgeri</span>
+                        <span>{actualName}</span>
                         <input
                           type="checkbox"
                           checked="true"
@@ -111,6 +127,7 @@ function TravellerDetails() {
                           className="input_trvl"
                           placeholder="Enter First Name"
                           required=""
+                          value={actualNameValue}
                         />
                       </div>
                       <div className="str_3 mgl15">

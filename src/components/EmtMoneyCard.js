@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./EmtMoney.scss";
 import axios from "axios";
 import ReactDOM from "react-dom";
 import LoginModal from "./LoginModal";
+import EMTContext from "../common/EMTContext";
 
 function EmtMoneyCard() {
   let [loanAmount, setloanAmount] = useState(0);
+  // const [details,setAllDetails] = useState({})
+  const {mobile,setAllDetails,setMobile,setName,setNewMobile,setDetails} = useContext(EMTContext)
+
   let [inputData, setInputData] = React.useState({
     email: "",
     mobileNumber: "",
@@ -26,10 +30,14 @@ function EmtMoneyCard() {
     let { name, value } = e.target;
 
     if (name === "mobileNumber") {
+      setMobile(value)
+      setNewMobile(value)
+      localStorage.setItem("mobile",value)
       setCustomerDetails({ ...customerDetails, mobileNumber: value });
       let mobileNumberRegex = /^[6-9]\d{9}$/;
 
       if (value.match(mobileNumberRegex)) {
+        
         setInputData({ ...inputData, [name]: value.trim() });
         setInputValidation({ ...inputValidation, mobileNumberError: "" });
       } else {
@@ -49,10 +57,14 @@ function EmtMoneyCard() {
       }
     }
     if (name === "namePan") {
+      setName(value)
+      localStorage.setItem("name",value)
+
       setCustomerDetails({ ...customerDetails, namePan: value });
       let lastNameRegex = /^[a-zA-Z ]+$/;
 
       if (value.match(lastNameRegex)) {
+       
         setInputData({ ...inputData, [name]: value.trim() });
         setInputValidation({ ...inputValidation, lastNameError: "" });
       } else {
@@ -102,6 +114,10 @@ function EmtMoneyCard() {
   let paylatermsg = document.getElementById("paylater");
   let flightsmsg = document.getElementById("bookflights");
   function createUser() {
+    setAllDetails({
+      name:customerDetails.namePan,
+      mobile:customerDetails.mobileNumber
+     })
     axios
       .post(
         "https://stage-paymentgateway.cashe.co.in/cashePartners/createNewUser",
@@ -123,6 +139,7 @@ function EmtMoneyCard() {
       });
   }
   function showMoney() {
+
     axios
       .get(
         `https://stage-paymentgateway.cashe.co.in/cashePartners/getCheckoutLoanDetails/${customerDetails.mobileNumber}`,
@@ -130,6 +147,7 @@ function EmtMoneyCard() {
       )
       .then((data) => {
         if (data.data.entity.loanAmount) {
+          setDetails()
           paylatermsg.innerHTML = "Congratulations!";
           flightsmsg.innerHTML = "You’re eligible for Book Now Pay Later.!";
           inputField.style.display = "none";

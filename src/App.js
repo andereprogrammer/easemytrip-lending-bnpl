@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import ListOfFlights from "./pages/ListOfFlights";
 import PaymentMethod from "./pages/PaymentMethod";
+import { EMTProvider } from "./common/EMTContext";
+
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
           </Route>
           <Route path="/home" component={Home} />
           <Route path="/list-of-flights" component={PaymentMethod} />
-          <Route path="/review" component={ListOfFlights} />
+          <Route path="/review">
+              <ListOfFlights/>
+          </Route>
         </Switch>
       </Router>
     </div>

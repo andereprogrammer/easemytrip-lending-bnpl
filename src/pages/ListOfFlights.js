@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useContext } from "react";
 import EmailInput from "../components/EmailInput";
 import EmtMoneyCard from "../components/EmtMoneyCard";
 import FlightsCard from "../components/FlightsCard";
@@ -16,6 +16,9 @@ import Footer from "../components/Footer";
 import MobileNum from "../components/MobileNum";
 import Final from '../components/Final';
 import { useHistory } from 'react-router-dom';
+import EMTContext, { EMTProvider } from '../common/EMTContext';
+
+
 
 
 function ListOfFlights() {
@@ -24,7 +27,8 @@ function ListOfFlights() {
   let showPayment = false;
   let count = 0;
   useEffect(() => {
-    ReactDOM.render(<EmtMoneyCard />, document.getElementById("emt_holder"));
+   
+    ReactDOM.render(<EMTProvider><EmtMoneyCard /></EMTProvider>, document.getElementById("emt_holder"));
     ReactDOM.render(<EmailInput />, document.getElementById("email_holder"));
     ReactDOM.render(<Medical />, document.getElementById("medical_holder"));
     ReactDOM.render(<ImportantInfo />, document.getElementById("impinfo_holder"));
@@ -38,11 +42,10 @@ function ListOfFlights() {
       ReactDOM.unmountComponentAtNode(document.getElementById("impinfo_holder"));
       ReactDOM.unmountComponentAtNode(document.getElementById("medical_holder"));
       ReactDOM.render(
-        <TravellerDetails />,
+        <EMTProvider><TravellerDetails /></EMTProvider>,
         document.getElementById("traveller_holder")
       );
       ReactDOM.render(<MobileNum />, document.getElementById("mobile_holder"));
-
       showSeat = true;
     }
     if (count == 2) {
@@ -70,7 +73,8 @@ function ListOfFlights() {
     }
   }
   return (
-    <React.Fragment>
+  
+        <React.Fragment>
       <MainHeader />
       <div className="main_wrapper">
         <div className="main_content">
@@ -101,6 +105,8 @@ function ListOfFlights() {
       </div>
       <Footer />
     </React.Fragment>
+   
+  
   );
 }
 

@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useContext,useEffect} from 'react'
+import EMTContext from '../common/EMTContext'
 
 function FlightsCard() {
+
   return (
     <React.Fragment>
         <div className="bor pdb10" style={{marginBottom:20}}>
